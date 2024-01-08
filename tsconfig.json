@@ -11,6 +11,7 @@
     "baseUrl": ".",
     "paths": {
       "@features/*": ["./src/features/*"],
+      "@itemData/*": ["./src/itemData/*"],
       "@src/*": ["./src/*"]
     },
 

@@ -1,4 +1,4 @@
-import { WeaponCategories } from '@src/itemData/itemTypes';
+import { WeaponCategories } from '@itemData/itemTypes';
 
 function isWeapon(itemType: string): boolean {
   return WeaponCategories.includes(itemType);

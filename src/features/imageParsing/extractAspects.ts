@@ -1,4 +1,4 @@
-import aspectData from '@src/itemData/aspects.master.json';
+import aspectData from '@itemData/aspects.master.json';
 
 export interface Aspect {
   aspect: string;

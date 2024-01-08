@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './CaptureContainer.module.scss';
+import styles from './CaptureContainer.module.css';
 
 interface CaptureContainerProps extends React.PropsWithChildren {
   onImagePaste: (imageFile: File) => void;

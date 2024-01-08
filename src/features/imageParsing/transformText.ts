@@ -8,7 +8,7 @@ import {
   ItemTypes,
   Qualities,
   Rarities,
-} from '@src/itemData/itemTypes';
+} from '@itemData/itemTypes';
 
 import { extractAffixesAndCleanText } from './extractAffixes';
 import { extractImplicitAffixes } from './extractImplicit';

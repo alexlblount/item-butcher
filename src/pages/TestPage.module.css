@@ -1,0 +1,38 @@
+.testPage {
+  height: 100%;
+  width: 100%;
+  background-color: #333;
+}
+
+.container {
+  /* Aligns items to the start of the container*/
+  align-items: start;
+  display: grid;
+  gap: 8px;
+  /* Three columns with equal width */
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 8px;
+  text-align: left;
+
+  /* Optional: Add some responsive behavior */
+  @media (max-width: 768px) {
+    /* Stack the columns on smaller screens */
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+}
+
+.imageColumn,
+.textColumn {
+  border: 1px solid #333;
+  background-color: #ccc;
+  margin: 4px;
+  padding: 4px;
+  font-size: 12pt;
+  text-align: left;
+}
+
+.result {
+  font-family: 'PT Serif', serif;
+  font-size: 14pt;
+}
