@@ -1,26 +1,40 @@
-import { useState } from 'react'
-import classNames from 'classnames/bind'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import style from './App.module.css'
-// import './App.css'
+import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
+import classNames from 'classnames/bind';
+import 'modern-normalize';
 
-const cx = classNames.bind(style)
-// const cx = (str: string) => str;
+import reactLogo from './assets/react.svg';
+import viteLogo from '/vite.svg';
+import style from './App.module.css';
+
+const cx = classNames.bind(style);
 
 function App() {
-  const [count, setCount] = useState(0)
+  const {
+    t,
+    i18n: { changeLanguage, language },
+  } = useTranslation();
+  const [currentLanguage, setCurrentLanguage] = useState(language);
+  const handleChangeLanguage = () => {
+    const newLanguage = currentLanguage === 'en' ? 'es' : 'en';
+    setCurrentLanguage(newLanguage);
+    changeLanguage(newLanguage);
+  };
+
+  const [count, setCount] = useState(0);
 
   return (
     <>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
+        <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
           <img src={viteLogo} className={cx('logo')} alt="Vite logo" />
         </a>
-        <a href="https://react.dev" target="_blank">
-          {/* <img src={reactLogo} className={cx('logo react')} alt="React logo" /> */}
-          
-          <img src={reactLogo} className={cx('logo', 'react')} alt="React logo" />
+        <a href="https://react.dev" target="_blank" rel="noreferrer">
+          <img
+            src={reactLogo}
+            className={cx('logo', 'react')}
+            alt="React logo"
+          />
         </a>
       </div>
       <h1>Vite + React</h1>
@@ -35,11 +49,17 @@ function App() {
       <p className={cx('read-the-docs')}>
         Click on the Vite and React logos to learn more
       </p>
-      <p>
-        hot reload yes?!?! oh cool! css too?
-      </p>
+      <h3>
+        Our Translated Header:
+        <br />
+        {t('hello')}
+      </h3>
+      <h4>Current Language: {currentLanguage}</h4>
+      <button type="button" onClick={handleChangeLanguage}>
+        Change Language
+      </button>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

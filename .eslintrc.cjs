@@ -7,7 +7,9 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:react-hooks/recommended',
-    'plugin:jsx-a11y/recommended'
+    'plugin:jsx-a11y/recommended',
+    // Make sure prettier is always the last element in the array.
+    'plugin:prettier/recommended',
   ],
   ignorePatterns: ['dist', '.eslintrc.cjs'],
   parser: '@typescript-eslint/parser',
@@ -17,7 +19,8 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
-    'prettier/prettier': 'error',
+    'react/react-in-jsx-scope': 'off',
+    'prettier/prettier': ['error', {}, { usePrettierrc: true }],
   },
   parserOptions: {
     ecmaVersion: 2021,
@@ -26,4 +29,4 @@ module.exports = {
       jsx: true,
     },
   },
-}
+};
