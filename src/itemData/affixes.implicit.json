@@ -1,0 +1,167 @@
+[
+  {
+    "itemType": "pants",
+    "affix": "potionGrantsMaximumLifeAsBarrierPercent",
+    "text": "While Injured, Your Potion Also Grants #.#% Maximum Life as Barrier"
+  },
+  {
+    "itemType": "pants",
+    "affix": "potionGrantsMovementSpeedPercent",
+    "text": "While Injured, Your Potion Also Grants #.#% Movement Speed for 2 Seconds"
+  },
+  {
+    "itemType": "pants",
+    "affix": "potionRestoresResourcePercent",
+    "text": "While Injured, Your Potion Also Restores #.#% Resource"
+  },
+  {
+    "itemType": "boots",
+    "affix": "maxEvadeCharges",
+    "text": "# Max Evade Charges"
+  },
+  {
+    "itemType": "boots",
+    "affix": "evadeGrantsMovementSpeedPercent",
+    "text": "Evade Grants #.#% Movement Speed for 2 Seconds"
+  },
+  {
+    "itemType": "boots",
+    "affix": "attacksReduceEvadeCooldownPercent",
+    "text": "Attacks Reduce Evade's Cooldown by #.# Seconds"
+  },
+  {
+    "itemType": "amulet",
+    "affix": "resistanceToAllElementsPercent",
+    "text": "#.#% Resistance to All Elements"
+  },
+  {
+    "itemType": "ring",
+    "affix": "allResistancesPercent",
+    "text": "#.#% All Resistances"
+  },
+  {
+    "itemType": "ring",
+    "affix": "coldResistancePercent",
+    "text": "#.#% Cold Resistance"
+  },
+  {
+    "itemType": "ring",
+    "affix": "fireResistancePercent",
+    "text": "#.#% Fire Resistance"
+  },
+  {
+    "itemType": "ring",
+    "affix": "lightningResistancePercent",
+    "text": "#.#% Lightning Resistance"
+  },
+  {
+    "itemType": "ring",
+    "affix": "poisonResistancePercent",
+    "text": "#.#% Poison Resistance"
+  },
+  {
+    "itemType": "ring",
+    "affix": "shadowResistancePercent",
+    "text": "#.#% Shadow Resistance"
+  },
+  {
+    "itemType": "sword1h",
+    "affix": "criticalStrikeDamagePercent",
+    "text": "#.#% Critical Strike Damage"
+  },
+  {
+    "itemType": "axe1h",
+    "affix": "damageToHealthyEnemiesPercent",
+    "text": "#.#% Damage to Healthy Enemies"
+  },
+  {
+    "itemType": "mace1h",
+    "affix": "overpowerDamagePercent",
+    "text": "#.#% Overpower Damage"
+  },
+  {
+    "itemType": "dagger",
+    "affix": "damageToCloseEnemiesPercent",
+    "text": "#.#% Damage to Close Enemies"
+  },
+  {
+    "itemType": "scythe1h",
+    "affix": "lifeOnKill",
+    "text": "# Life On Kill"
+  },
+  {
+    "itemType": "wand",
+    "affix": "luckyHitChancePercent",
+    "text": "#.#% Lucky Hit Chance"
+  },
+  {
+    "itemType": "sword2h",
+    "affix": "criticalStrikeDamagePercent",
+    "text": "#.#% Critical Strike Damage"
+  },
+  {
+    "itemType": "axe2h",
+    "affix": "damageToHealthyEnemiesPercent",
+    "text": "#.#% Damage to Healthy Enemies"
+  },
+  {
+    "itemType": "mace2h",
+    "affix": "overpowerDamagePercent",
+    "text": "#.#% Overpower Damage"
+  },
+  {
+    "itemType": "polearm",
+    "affix": "damageToInjuredEnemiesPercent",
+    "text": "#.#% Damage to Injured Enemies"
+  },
+  {
+    "itemType": "bow",
+    "affix": "damageToDistantEnemiesPercent",
+    "text": "#.#% Damage to Distant Enemies"
+  },
+  {
+    "itemType": "crossbow",
+    "affix": "vulnerableDamagePercent",
+    "text": "#.#% Vulnerable Damage"
+  },
+  {
+    "itemType": "scythe2h",
+    "affix": "lifeOnKill",
+    "text": "# Life On Kill"
+  },
+  {
+    "itemType": "staff",
+    "affix": "damageToCrowdControlledEnemiesPercent",
+    "text": "#.#% Damage to Crowd Controlled Enemies"
+  },
+  {
+    "itemType": "totem",
+    "affix": "cooldownReductionPercent",
+    "text": "#.#% Cooldown Reduction"
+  },
+  {
+    "itemType": "focus",
+    "affix": "cooldownReductionPercent",
+    "text": "#.#% Cooldown Reduction"
+  },
+  {
+    "itemType": "shield",
+    "affix": "blockChancePercent",
+    "text": "#.#% Block Chance"
+  },
+  {
+    "itemType": "shield",
+    "affix": "blockDamageReductionPercent",
+    "text": "#.#% Blocked Damage Reduction"
+  },
+  {
+    "itemType": "shield",
+    "affix": "mainHandWeaponDamagePercent",
+    "text": "#.#% Main Hand Weapon Damage"
+  },
+  {
+    "itemType": "shield",
+    "affix": "thorns",
+    "text": "# Thorns"
+  }
+]

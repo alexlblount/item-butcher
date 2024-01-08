@@ -3,6 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "author": "Alex Blount",
+  "license": "MIT",
   "scripts": {
     "build": "tsc && vite build",
     "dev": "vite",
@@ -10,6 +12,9 @@
     "lint:format": "prettier --loglevel warn --write \"./**/*.{js,jsx,ts,tsx,css,scss,md,json}\" ",
     "lint": "yarn lint:format && yarn lint:fix ",
     "preview": "vite preview",
+    "transform-affixes": "node scripts/transformAffixes.cjs",
+    "transform-aspects": "node scripts/transformAspects.cjs",
+    "transform-data": "yarn transform-affixes && yarn transform-aspects",
     "zzlint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
   },
   "dependencies": {
@@ -42,6 +47,7 @@
     "prettier": "^3.1.1",
     "typescript": "^5.2.2",
     "vite": "^5.0.8",
+    "vite-tsconfig-paths": "^4.2.3",
     "vitest": "^1.1.3"
   }
 }
