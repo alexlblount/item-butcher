@@ -1,3 +1,4 @@
+import { v4 as uuid } from 'uuid';
 import {
   DamageDetails,
   extractArmorValueAndCleanText,
@@ -65,7 +66,8 @@ export interface ItemTypeDetails {
   rarity: string;
 }
 
-export interface ItemDetails extends ItemTypeDetails {
+export interface Item extends ItemTypeDetails {
+  id: string;
   affixes: Record<string, number | string>;
   armor: number | null;
   aspect: AspectDetails | null;
@@ -74,6 +76,9 @@ export interface ItemDetails extends ItemTypeDetails {
   implicitAffixes: Record<string, number | string>;
   upgradePower: number | null;
   upgrades: number | null;
+  iconDataUrl?: string;
+  iconHeight?: number;
+  iconWidth?: number;
 }
 
 export interface JsonData {
@@ -130,7 +135,7 @@ function cleanBeforeExtraction(line: string): string {
   return line.replace(/\s+/g, ' ').trim();
 }
 
-function parseInitialInfo(ocrText: string): ItemDetails {
+function parseInitialInfo(ocrText: string): Item {
   const ocrLines = ocrText.split('\n'); // .slice(0, 7);
 
   const {
@@ -169,6 +174,7 @@ function parseInitialInfo(ocrText: string): ItemDetails {
   );
 
   return {
+    id: uuid(),
     affixes,
     armor,
     aspect,

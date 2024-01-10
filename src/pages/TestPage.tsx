@@ -1,9 +1,6 @@
 import { useState } from 'react';
 import ReactJson from 'react-json-view';
-import {
-  ItemDetails,
-  parseInitialInfo,
-} from '@features/imageParsing/transformText';
+import { Item, parseInitialInfo } from '@features/imageParsing/transformText';
 import { preprocessImage } from '@features/imageCapture/preprocessImage';
 import { recognizeTextFromImage } from '@features/imageParsing/recognizeText';
 import CaptureContainer from '@features/imageCapture/CaptureContainer';
@@ -16,7 +13,7 @@ export default function TestPage() {
     0, 0,
   ]);
   const [imageSrc, setImageSrc] = useState('');
-  const [itemDetails, setItemDetails] = useState<ItemDetails>();
+  const [itemDetails, setItemDetails] = useState<Item>();
   const [pastedImageSrc, setPastedImageSrc] = useState('');
 
   const readImageFile = (file: File) => {
