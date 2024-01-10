@@ -1316,7 +1316,7 @@
   },
   {
     "classType": "all",
-    "affix": "ruptureCooldownReduction",
+    "affix": "ruptureCooldownReductionPercent",
     "text": "#.#% Rupture Cooldown Reduction"
   },
   {

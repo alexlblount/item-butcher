@@ -1,5 +1,5 @@
-import affixes from '@itemData/affixes.implicit.json';
-import { ItemType } from '@itemData/itemTypes';
+import affixes from '@src/assets/affixes.implicit.json';
+import { ItemType } from '@features/vault/itemTypes';
 
 export interface ImplicitAffix {
   itemType: string;

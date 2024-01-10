@@ -2,7 +2,9 @@ import React from 'react';
 import { Provider } from 'react-redux';
 import { RouterProvider } from 'react-router-dom';
 import ReactDOM from 'react-dom/client';
-import { store } from './store';
+import 'modern-normalize';
+// local
+import { store } from './state/store.ts';
 import router from './router';
 import './i18n.ts';
 import './index.css';

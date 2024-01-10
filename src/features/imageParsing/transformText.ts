@@ -8,7 +8,7 @@ import {
   ItemTypes,
   Qualities,
   Rarities,
-} from '@itemData/itemTypes';
+} from '@features/vault/itemTypes';
 
 import { extractAffixesAndCleanText } from './extractAffixes';
 import { extractImplicitAffixes } from './extractImplicit';
@@ -253,12 +253,4 @@ function extractDetailsBeforePower(combinedText: string): ItemTypeDetails {
   return { category, name, quality, rarity, itemType };
 }
 
-export {
-  // Affix,
-  // ItemDetails,
-  // JsonData,
-  determineItemType,
-  matchAffixes,
-  parseInitialInfo,
-  parseItemData,
-};
+export { determineItemType, matchAffixes, parseInitialInfo, parseItemData };

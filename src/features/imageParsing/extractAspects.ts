@@ -1,4 +1,4 @@
-import aspectData from '@itemData/aspects.master.json';
+import aspectData from '@src/assets/aspects.master.json';
 
 export interface Aspect {
   aspect: string;
@@ -45,7 +45,7 @@ function correctBracketErrors(text: string): string {
 function extractAspectsAndCleanText(
   combinedText: string,
 ): [AspectDetails | null, string] {
-  const unmodifiedText = combinedText;
+  // const unmodifiedText = combinedText;
   combinedText = cleanTextForMatching(
     removeBracketsAndContents(correctBracketErrors(combinedText)),
   );

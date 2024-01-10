@@ -1,7 +1,7 @@
 // master affix list
 // based on https://d4builds.gg/page-data/database/gear-affixes/page-data.json
 // NOTE: i've found this list to be incomplete, or the spelling to not match the game
-import affixes from '@itemData/affixes.master.json';
+import affixes from '@src/assets/affixes.master.json';
 
 const affixData = affixes as Affix[];
 

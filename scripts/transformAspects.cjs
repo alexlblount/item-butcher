@@ -151,6 +151,6 @@ const sortedTransformedData = transformedData.sort((a, b) =>
 console.log(`Total Aspects Created: ${sortedTransformedData.length}`);
 
 fs.writeFileSync(
-  'src/itemData/aspects.master.json',
+  'src/assets/aspects.master.json',
   JSON.stringify(sortedTransformedData, null, 2),
 );

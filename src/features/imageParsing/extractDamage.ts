@@ -1,4 +1,4 @@
-import { WeaponCategories } from '@itemData/itemTypes';
+import { WeaponCategories } from '@features/vault/itemTypes';
 
 function isWeapon(itemType: string): boolean {
   return WeaponCategories.includes(itemType);

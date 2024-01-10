@@ -42,7 +42,7 @@ const missingAffixes = [
   },
   {
     classType: 'all',
-    affix: 'ruptureCooldownReduction',
+    affix: 'ruptureCooldownReductionPercent',
     text: '#.#% Rupture Cooldown Reduction',
   },
 ];
@@ -139,7 +139,7 @@ const sortedTransformedAffixes = transformedAffixes.sort((a, b) =>
 console.log(`Total Affixes Created: ${transformedAffixes.length}`);
 
 fs.writeFileSync(
-  'src/itemData/affixes.master.json',
+  'src/assets/affixes.master.json',
   JSON.stringify(sortedTransformedAffixes, null, 2),
 );
 
@@ -212,6 +212,6 @@ fs.writeFileSync(
 
 // // NOTE: this just never came out quite right, so I'm not using it for now
 // fs.writeFileSync(
-//   'src/itemData/affixes.implicit.json',
+//   'src/assets/affixes.implicit.json',
 //   JSON.stringify(transformedImplicitAffixes, null, 4),
 // );

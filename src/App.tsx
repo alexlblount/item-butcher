@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import classNames from 'classnames/bind';
-import 'modern-normalize';
 
 import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
