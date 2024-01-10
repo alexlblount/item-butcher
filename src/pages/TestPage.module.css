@@ -1,7 +1,14 @@
 .testPage {
-  height: 100%;
-  width: 100%;
-  background-color: #333;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.diabloTitle {
+  font-family: 'exocet';
+}
+
+.diabloText {
+  font-family: 'PT Serif';
 }
 
 .container {
@@ -24,15 +31,15 @@
 
 .imageColumn,
 .textColumn {
-  border: 1px solid #333;
-  background-color: #ccc;
   margin: 4px;
   padding: 4px;
   font-size: 12pt;
   text-align: left;
+  position: relative;
 }
 
 .result {
   font-family: 'PT Serif', serif;
   font-size: 14pt;
+  margin: 0;
 }

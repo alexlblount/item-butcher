@@ -1,4 +1,4 @@
-interface ImageDataObject {
+export interface ImageDataObject {
   canvas: HTMLCanvasElement;
   image: HTMLImageElement;
   getContext(): CanvasRenderingContext2D;
@@ -149,7 +149,12 @@ function coverCornerImage(imageDataObject: ImageDataObject): void {
   context.fillRect(coverX, coverY, coverWidth, coverHeight);
 }
 
-function preprocessImage(image: HTMLImageElement): HTMLCanvasElement {
+function preprocessImage(image: HTMLImageElement): {
+  canvas: HTMLCanvasElement;
+  cornerImageUrl: string;
+  cornerHeight: number;
+  cornerWidth: number;
+} {
   const imageDataObject = createImageData(image);
 
   // Adjust the canvas dimensions to exclude the 20px border from the left, right, and top sides
@@ -173,13 +178,73 @@ function preprocessImage(image: HTMLImageElement): HTMLCanvasElement {
     imageDataObject.canvas.height, // Draw on the entire canvas
   );
 
+  // Extract the corner image as a data URL
+  const { cornerImageUrl, cornerHeight, cornerWidth } = extractCornerImage(
+    image,
+    0.3,
+  );
+
   // Then apply other preprocessing steps
   coverCornerImage(imageDataObject);
   convertToGrayscale(imageDataObject);
   applyThreshold(imageDataObject);
   invertColors(imageDataObject);
 
-  return imageDataObject.canvas;
+  // return imageDataObject.canvas;
+  return {
+    canvas: imageDataObject.canvas,
+    cornerImageUrl,
+    cornerHeight,
+    cornerWidth,
+  };
 }
 
-export { ImageDataObject, convertToGrayscale, applyThreshold, preprocessImage };
+function extractCornerImage(
+  image: HTMLImageElement,
+  cornerSizeFactor: number,
+): { cornerImageUrl: string; cornerWidth: number; cornerHeight: number } {
+  const cornerCanvas = document.createElement('canvas');
+  const cornerContext = cornerCanvas.getContext('2d');
+
+  if (!cornerContext) {
+    throw new Error('Unable to get canvas context for corner image');
+  }
+
+  // Define the area to extract (e.g., top-right corner)
+  // Use the original image dimensions since we want to include the borders
+  const cornerWidth = image.width * cornerSizeFactor; // e.g., 20% of the original image width
+  const cornerHeight = cornerWidth * 1.2; // 1.5 times the width
+  const coverX = image.width - cornerWidth; // Start from the right edge
+  const coverY = 0; // Start from the top
+
+  // Set the size of the corner canvas
+  cornerCanvas.width = cornerWidth;
+  cornerCanvas.height = cornerHeight;
+
+  // Draw the corner area onto the corner canvas
+  cornerContext.drawImage(
+    image,
+    coverX,
+    coverY,
+    cornerWidth,
+    cornerHeight,
+    0,
+    0,
+    cornerWidth,
+    cornerHeight,
+  );
+
+  // Convert the corner canvas to a data URL
+  return {
+    cornerImageUrl: cornerCanvas.toDataURL(),
+    cornerWidth,
+    cornerHeight,
+  };
+}
+
+export {
+  applyThreshold,
+  convertToGrayscale,
+  extractCornerImage,
+  preprocessImage,
+};

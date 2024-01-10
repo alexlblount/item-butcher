@@ -3,6 +3,7 @@
 
 enum ItemType {
   amulet = 'Amulet',
+  aspect = 'Aspect',
   axe1h = 'Axe',
   axe2h = 'Two-Handed Axe',
   boots = 'Boots',
@@ -73,6 +74,7 @@ const WeaponCategories: string[] = Object.values(WeaponCategory);
 
 const ItemTypeToCategoryMap = {
   [ItemType.amulet]: ItemType.amulet,
+  [ItemType.aspect]: ItemType.aspect,
   [ItemType.axe1h]: WeaponCategory.oneHand,
   [ItemType.axe2h]: WeaponCategory.twoHand,
   [ItemType.boots]: ItemType.boots,
