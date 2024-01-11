@@ -1,0 +1,39 @@
+.tile {
+  align-items: top; /* Align text to top of tile */
+  border: 1px solid #666;
+  display: flex;
+  font-family: 'PT Serif';
+  justify-content: space-between;
+  max-height: 128px;
+  max-width: 400px;
+  height: 128px;
+  width: 400px;
+  background-color: #333;
+}
+
+.summary {
+  /* Adapt this as necessary for your text content */
+  flex: 1;
+  padding: 4px 8px;
+}
+
+.icon {
+  align-items: center; /* Center image vertically */
+  display: flex;
+  flex-basis: 100px; /* Adjust based on your image size */
+  height: 100%; /* Adjust if necessary */
+  justify-content: center; /* Center image horizontally */
+  border-left: 1px solid #666;
+}
+
+.icon img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.title {
+  font-family: 'exocet';
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1.5rem;
+}

@@ -1,23 +1,13 @@
-import { Item } from '@features/imageParsing/transformText';
-
+import type { Item } from '@features/imageParsing/transformText';
 import styles from './ItemCard.module.css';
+import { getPowerDisplay, getTypeName } from './itemHelpers';
 
 interface ItemCardProps {
   item: Item;
 }
 
-const getPowerDisplay = (item: Item) => {
-  const { basePower, upgradePower } = item;
-  const powerDisplay = upgradePower
-    ? `${basePower}+${upgradePower}`
-    : basePower;
-  return `${powerDisplay} Item Power`;
-};
-
 export default function ItemCard({ item }: ItemCardProps) {
-  const typeName = [item.quality, item.rarity, item.itemType]
-    .filter((str) => str !== 'Normal')
-    .join(' ');
+  const typeName = getTypeName(item);
   const powerDisplay = getPowerDisplay(item);
   const height = (item.iconHeight || 0) + 8;
   return (

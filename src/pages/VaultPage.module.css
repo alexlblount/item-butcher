@@ -2,5 +2,5 @@
   display: flex;
   flex-wrap: wrap;
   gap: 10px; /* Space between cards */
-  justify-content: center; /* Align items centrally */
+
 }

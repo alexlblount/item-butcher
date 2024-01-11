@@ -41,9 +41,9 @@ import { AspectDetails, extractAspectsAndCleanText } from './extractAspects';
 // Within the first 7 ocrLines, the following information should be found: name, type, power, and upgrades
 // each of these are typically the start of a line, but the parsing can break each into multiple ocrLines
 
-// name - alphabetic characters only, but can include apostrophies and hypens
+// name - alphabetic characters only, but can include apostrophes and hyphens
 
-// type - [Quality] [Rarity] [ItemType], alphabetic characters only, but can include hypens and parenthesis
+// type - [Quality] [Rarity] [ItemType], alphabetic characters only, but can include hyphens and parenthesis
 //  * quality: Will be the first word, and can only be (none), Sacred, or Ancestral
 //  * rarity: Will be the second word, and can only (none), Magic, Rare, Unique, or Legendary
 //  * remainder is the ItemType

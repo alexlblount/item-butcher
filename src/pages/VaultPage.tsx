@@ -1,19 +1,20 @@
-import CaptureContainer from '@features/imageCapture/CaptureContainer';
+import {
+  addItem,
+  selectUniqueSortedItemTypes,
+} from '@features/vault/vaultSlice';
+import { parseInitialInfo } from '@features/imageParsing/transformText';
 import { preprocessImage } from '@features/imageCapture/preprocessImage';
 import { recognizeTextFromImage } from '@features/imageParsing/recognizeText';
-import {
-  // ItemDetails,
-  parseInitialInfo,
-} from '@features/imageParsing/transformText';
-
 import { useAppSelector, useAppDispatch } from '@src/state/hooks';
-import { addItem } from '@features/vault/vaultSlice';
-import ItemCard from '@features/vault/ItemCard';
-import styles from './ItemsPage.module.css';
+import CaptureContainer from '@features/imageCapture/CaptureContainer';
+// import ItemCard from '@features/vault/ItemCard';
+import ItemTile from '@features/vault/ItemTile';
+import styles from './VaultPage.module.css';
 
-export default function ItemsPage() {
+export default function VaultPage() {
   // The `state` arg is correctly typed as `RootState` already
   const items = useAppSelector((state) => state.vault.items);
+  const itemHeaders = useAppSelector(selectUniqueSortedItemTypes);
   const dispatch = useAppDispatch();
 
   const handleImagePaste = async (imageFile: File) => {
@@ -47,13 +48,19 @@ export default function ItemsPage() {
   return (
     <CaptureContainer onImagePaste={handleImagePaste}>
       <div id="items-page">
-        <h1>Items Page</h1>
-        <hr />
-        <div className={styles.container}>
-          {items.map((item) => (
-            <ItemCard key={item.id} item={item} />
-          ))}
-        </div>
+        <h1>Vault</h1>
+        {itemHeaders.map((itemHeader) => (
+          <div key={itemHeader}>
+            <h2>{itemHeader}</h2>
+            <div className={styles.container}>
+              {items
+                .filter((item) => item.itemType === itemHeader)
+                .map((item) => (
+                  <ItemTile key={item.id} item={item} />
+                ))}
+            </div>
+          </div>
+        ))}
       </div>
     </CaptureContainer>
   );

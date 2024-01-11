@@ -1,4 +1,4 @@
-import { createSlice } from '@reduxjs/toolkit';
+import { createSelector, createSlice } from '@reduxjs/toolkit';
 import type { PayloadAction } from '@reduxjs/toolkit';
 import type { RootState } from '@src/state/store';
 import type { Item } from '@features/imageParsing/transformText';
@@ -23,22 +23,34 @@ export const vaultSlice = createSlice({
     addItem: (state, action: PayloadAction<Item>) => {
       state.items.push(action.payload);
     },
-    // test reducers
-    increment: (state) => {
-      state.value += 1;
+    deleteItem: (state, action: PayloadAction<string>) => {
+      const index = state.items.findIndex((item) => item.id === action.payload);
+      state.items.splice(index, 1);
     },
-    decrement: (state) => {
-      state.value -= 1;
-    },
-    // Use the PayloadAction type to declare the contents of `action.payload`
-    incrementByAmount: (state, action: PayloadAction<number>) => {
-      state.value += action.payload;
+    // Add other reducers as needed
+    updateItem: (state, action: PayloadAction<Item>) => {
+      const index = state.items.findIndex(
+        (item) => item.id === action.payload.id,
+      );
+      if (index !== -1) {
+        state.items[index] = action.payload;
+      }
     },
   },
 });
 
-export const { addItem, increment, decrement, incrementByAmount } =
-  vaultSlice.actions;
+// Selector to get unique, sorted itemTypes
+export const selectUniqueSortedItemTypes = createSelector(
+  [(state: RootState) => state.vault.items],
+  (items) => {
+    const itemTypes = items.map((item) => item.itemType);
+    const uniqueItemTypes = Array.from(new Set(itemTypes));
+    uniqueItemTypes.sort();
+    return uniqueItemTypes;
+  },
+);
+
+export const { addItem, deleteItem, updateItem } = vaultSlice.actions;
 
 // Other code such as selectors can use the imported `RootState` type
 export const selectCount = (state: RootState) => state.vault.value;

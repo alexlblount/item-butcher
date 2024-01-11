@@ -9,6 +9,7 @@ import styles from './TestPage.module.css';
 export default function TestPage() {
   const [extractedText, setExtractedText] = useState('');
   const [iconUrl, setIconUrl] = useState('');
+  // width, height
   const [iconDimensions, setIconDimensions] = useState<[number, number]>([
     0, 0,
   ]);
@@ -42,7 +43,7 @@ export default function TestPage() {
       const { canvas, cornerImageUrl, cornerHeight, cornerWidth } =
         preprocessImage(image);
       setIconUrl(cornerImageUrl);
-      setIconDimensions([Math.round(cornerHeight), Math.round(cornerWidth)]);
+      setIconDimensions([Math.round(cornerWidth), Math.round(cornerHeight)]);
 
       // Use the preprocessed image for OCR
       const text = await recognizeTextFromImage(canvas.toDataURL());
@@ -105,10 +106,10 @@ export default function TestPage() {
               <img
                 src={iconUrl}
                 alt="Icon"
-                style={{ border: '2px solid gold' }}
+                style={{ border: '2px solid gold', height: '128px' }}
               />
               <div style={{ textAlign: 'center' }}>
-                {iconDimensions[0]} x {iconDimensions[1]}
+                {`${iconDimensions[0]}w x ${iconDimensions[1]}h`}
               </div>
             </div>
           )}
