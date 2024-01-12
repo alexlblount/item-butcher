@@ -26,13 +26,7 @@ function createImageData(image: HTMLImageElement): ImageDataObject {
     },
     drawImage(): void {
       const context = this.getContext();
-      context.drawImage(
-        this.image,
-        0,
-        0,
-        this.canvas.width,
-        this.canvas.height,
-      );
+      context.drawImage(this.image, 0, 0, this.canvas.width, this.canvas.height);
     },
     getImageData(): ImageData {
       const context = this.getContext();
@@ -59,10 +53,7 @@ function convertToGrayscale(imageDataObject: ImageDataObject): void {
   imageDataObject.putImageData(imageData);
 }
 
-function applyThreshold(
-  imageDataObject: ImageDataObject,
-  threshold: number = 128,
-): void {
+function applyThreshold(imageDataObject: ImageDataObject, threshold: number = 128): void {
   const imageData = imageDataObject.getImageData();
   const data = imageData.data;
 
@@ -115,12 +106,7 @@ function calculateAverageColor(imageDataObject: ImageDataObject): string {
 
 function invertColors(imageDataObject: ImageDataObject): void {
   const context = imageDataObject.getContext();
-  const imageData = context.getImageData(
-    0,
-    0,
-    imageDataObject.canvas.width,
-    imageDataObject.canvas.height,
-  );
+  const imageData = context.getImageData(0, 0, imageDataObject.canvas.width, imageDataObject.canvas.height);
   const data = imageData.data;
 
   for (let i = 0; i < data.length; i += 4) {
@@ -179,10 +165,7 @@ function preprocessImage(image: HTMLImageElement): {
   );
 
   // Extract the corner image as a data URL
-  const { cornerImageUrl, cornerHeight, cornerWidth } = extractCornerImage(
-    image,
-    0.3,
-  );
+  const { cornerImageUrl, cornerHeight, cornerWidth } = extractCornerImage(image, 0.3);
 
   // Then apply other preprocessing steps
   coverCornerImage(imageDataObject);
@@ -222,17 +205,7 @@ function extractCornerImage(
   cornerCanvas.height = cornerHeight;
 
   // Draw the corner area onto the corner canvas
-  cornerContext.drawImage(
-    image,
-    coverX,
-    coverY,
-    cornerWidth,
-    cornerHeight,
-    0,
-    0,
-    cornerWidth,
-    cornerHeight,
-  );
+  cornerContext.drawImage(image, coverX, coverY, cornerWidth, cornerHeight, 0, 0, cornerWidth, cornerHeight);
 
   // Convert the corner canvas to a data URL
   return {
@@ -242,9 +215,4 @@ function extractCornerImage(
   };
 }
 
-export {
-  applyThreshold,
-  convertToGrayscale,
-  extractCornerImage,
-  preprocessImage,
-};
+export { applyThreshold, convertToGrayscale, extractCornerImage, preprocessImage };

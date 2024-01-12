@@ -5,14 +5,13 @@ import { preprocessImage } from '@features/imageCapture/preprocessImage';
 import { recognizeTextFromImage } from '@features/imageParsing/recognizeText';
 import CaptureContainer from '@features/imageCapture/CaptureContainer';
 import styles from './TestPage.module.css';
+import Navigation from '@features/layout/Navigation';
 
 export default function TestPage() {
   const [extractedText, setExtractedText] = useState('');
   const [iconUrl, setIconUrl] = useState('');
   // width, height
-  const [iconDimensions, setIconDimensions] = useState<[number, number]>([
-    0, 0,
-  ]);
+  const [iconDimensions, setIconDimensions] = useState<[number, number]>([0, 0]);
   const [imageSrc, setImageSrc] = useState('');
   const [itemDetails, setItemDetails] = useState<Item>();
   const [pastedImageSrc, setPastedImageSrc] = useState('');
@@ -40,8 +39,7 @@ export default function TestPage() {
 
     image.onload = async () => {
       // Preprocess the image (includes grayscale conversion, thresholding, etc.)
-      const { canvas, cornerImageUrl, cornerHeight, cornerWidth } =
-        preprocessImage(image);
+      const { canvas, cornerImageUrl, cornerHeight, cornerWidth } = preprocessImage(image);
       setIconUrl(cornerImageUrl);
       setIconDimensions([Math.round(cornerWidth), Math.round(cornerHeight)]);
 
@@ -61,32 +59,18 @@ export default function TestPage() {
   // test
   return (
     <CaptureContainer onImagePaste={handleImagePaste}>
+      <Navigation />
       <div className={styles.testPage}>
         <div style={{ textAlign: 'center' }}>
           <h1 className={styles.diabloTitle}>Item Recognition Test Page</h1>
-          <p className={styles.diabloText}>
-            Click anywhere on the page and paste an image of an item to test
-            processing.
-          </p>
+          <p className={styles.diabloText}>Click anywhere on the page and paste an image of an item to test processing.</p>
         </div>
         <div className={styles.container}>
           <div className={styles.imageColumn}>
-            {pastedImageSrc && (
-              <img
-                alt="Pasted"
-                src={pastedImageSrc}
-                style={{ maxWidth: '100%', maxHeight: '500px' }}
-              />
-            )}
+            {pastedImageSrc && <img alt="Pasted" src={pastedImageSrc} style={{ maxWidth: '100%', maxHeight: '500px' }} />}
           </div>
           <div className={styles.imageColumn}>
-            {imageSrc && (
-              <img
-                src={imageSrc}
-                alt="Processed"
-                style={{ maxWidth: '100%', maxHeight: '500px' }}
-              />
-            )}
+            {imageSrc && <img src={imageSrc} alt="Processed" style={{ maxWidth: '100%', maxHeight: '500px' }} />}
           </div>
           <div className={styles.textColumn}>
             <pre className={styles.result}>{extractedText}</pre>
@@ -103,14 +87,8 @@ export default function TestPage() {
                 zIndex: 100,
               }}
             >
-              <img
-                src={iconUrl}
-                alt="Icon"
-                style={{ border: '2px solid gold', height: '128px' }}
-              />
-              <div style={{ textAlign: 'center' }}>
-                {`${iconDimensions[0]}w x ${iconDimensions[1]}h`}
-              </div>
+              <img src={iconUrl} alt="Icon" style={{ border: '2px solid gold', height: '128px' }} />
+              <div style={{ textAlign: 'center' }}>{`${iconDimensions[0]}w x ${iconDimensions[1]}h`}</div>
             </div>
           )}
           {itemDetails && (

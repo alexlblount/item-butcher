@@ -1,0 +1,72 @@
+/* Navigation.module.css */
+.nav {
+  display: flex; /* Flexbox for aligning title and nav items */
+  justify-content: space-between; /* Space between title and nav items */
+  width: 100%;
+  overflow: hidden;
+  background-color: #501a1a;
+}
+
+.siteTitle {
+  padding: 14px 16px; /* Align with nav items */
+  /* Style your site title here */
+  color: #ddd;
+  border-bottom: 1px solid #000;
+  font-family: 'exocet';
+  font-weight: bold;
+}
+
+.navList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  /* Shift up to cover nav's bottom border */
+  margin-bottom: -1px; 
+}
+
+.navItem {
+  float: left;
+  min-width: 100px;
+}
+
+.navLink {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color 0.2s;
+  color: #ccc;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  border-bottom: 1px solid #000;
+}
+
+.navLink:hover {
+  background-color: #913333;
+  border-color: #000;
+  color: white;
+}
+
+.active {
+  background-color: #242424;
+  border-color: #000;
+  color: white;
+  border: 1px solid #000;
+}
+
+.active:hover {
+  background-color: #242424;
+  border-color: #000;
+  color: white;
+}
+
+.pending {
+  background-color: #ffcc00; /* Example color for pending state */
+  /* Additional styles for pending state */
+}
+
+.filler {
+  flex-grow: 1; /* Take up remaining space */
+  border-bottom: 1px solid #000;
+}

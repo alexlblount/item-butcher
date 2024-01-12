@@ -22,10 +22,7 @@ function getKeyByValue(value: string): string | undefined {
   return undefined; // or handle the case where the value is not found
 }
 
-function extractImplicitAffixes(
-  itemTypeValue: string,
-  combinedText: string,
-): [Record<string, number | string>, string] {
+function extractImplicitAffixes(itemTypeValue: string, combinedText: string): [Record<string, number | string>, string] {
   const itemType = getKeyByValue(itemTypeValue);
 
   if (!itemType || ['helm', 'gloves', 'chestArmor'].includes(itemType)) {
@@ -34,9 +31,7 @@ function extractImplicitAffixes(
 
   const extractedAffixes: Record<string, number | string> = {};
 
-  const relevantAffixes = affixes.filter(
-    (affix) => affix.itemType === itemType,
-  );
+  const relevantAffixes = affixes.filter((affix) => affix.itemType === itemType);
   relevantAffixes.sort((a, b) => b.text.length - a.text.length);
 
   for (const affix of relevantAffixes) {
@@ -52,9 +47,7 @@ function extractImplicitAffixes(
     const match = combinedText.match(regex);
 
     if (match) {
-      extractedAffixes[affix.affix] = convertToNumberOrDefault(
-        match[1] || match[2],
-      );
+      extractedAffixes[affix.affix] = convertToNumberOrDefault(match[1] || match[2]);
       combinedText = combinedText.replace(match[0], ''); // Remove matched affix from text
     }
 

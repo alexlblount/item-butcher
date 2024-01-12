@@ -30,13 +30,7 @@ function ImageInput({ onImagePaste }: ImageInputProps) {
   return (
     <div onPaste={handlePaste}>
       <div>Paste your image here!</div>
-      {imageSrc && (
-        <img
-          alt="Pasted"
-          src={imageSrc}
-          style={{ maxWidth: '100%', maxHeight: '800px' }}
-        />
-      )}
+      {imageSrc && <img alt="Pasted" src={imageSrc} style={{ maxWidth: '100%', maxHeight: '800px' }} />}
     </div>
   );
 }

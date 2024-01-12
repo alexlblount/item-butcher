@@ -1,15 +1,6 @@
 import { v4 as uuid } from 'uuid';
-import {
-  DamageDetails,
-  extractArmorValueAndCleanText,
-  extractWeaponDamageDetailsAndCleanText,
-} from './extractDamage';
-import {
-  ItemTypeToCategoryMap,
-  ItemTypes,
-  Qualities,
-  Rarities,
-} from '@features/vault/itemTypes';
+import { DamageDetails, extractArmorValueAndCleanText, extractWeaponDamageDetailsAndCleanText } from './extractDamage';
+import { ItemTypeToCategoryMap, ItemTypes, Qualities, Rarities } from '@features/vault/itemTypes';
 
 import { extractAffixesAndCleanText } from './extractAffixes';
 import { extractImplicitAffixes } from './extractImplicit';
@@ -93,10 +84,7 @@ export interface PowerDetails {
   nameAndTypeLines: string[];
 }
 
-function parseItemData(
-  ocrText: string,
-  jsonData: JsonData,
-): Record<string, string> {
+function parseItemData(ocrText: string, jsonData: JsonData): Record<string, string> {
   const itemType = determineItemType(ocrText, jsonData);
   if (!itemType) return {};
   const itemData = matchAffixes(ocrText, jsonData[itemType]);
@@ -112,16 +100,10 @@ function determineItemType(ocrText: string, jsonData: JsonData): string | null {
   return null;
 }
 
-function matchAffixes(
-  ocrText: string,
-  affixes: Affix[],
-): Record<string, string> {
+function matchAffixes(ocrText: string, affixes: Affix[]): Record<string, string> {
   const matchedAffixes: Record<string, string> = {};
   affixes.forEach((affix) => {
-    const regex = new RegExp(
-      affix.text.replace(/##/g, '\\d+').replace(/#/g, '\\d'),
-      'i',
-    );
+    const regex = new RegExp(affix.text.replace(/##/g, '\\d+').replace(/#/g, '\\d'), 'i');
     const match = ocrText.match(regex);
     if (match) {
       matchedAffixes[affix.affix] = match[0]; // Or extract the numeric value as needed
@@ -147,31 +129,21 @@ function parseInitialInfo(ocrText: string): Item {
   } = extractPowerAndSplitText(ocrLines);
 
   const combinedTextBeforePower: string = nameAndTypeLines.join(' ');
-  const { category, name, quality, rarity, itemType } =
-    extractDetailsBeforePower(combinedTextBeforePower);
+  const { category, name, quality, rarity, itemType } = extractDetailsBeforePower(combinedTextBeforePower);
 
-  const [damage, remainingLines2] =
-    extractWeaponDamageDetailsAndCleanText(remainingLines);
+  const [damage, remainingLines2] = extractWeaponDamageDetailsAndCleanText(remainingLines);
 
-  const [armor, remainingLines3] =
-    extractArmorValueAndCleanText(remainingLines2);
+  const [armor, remainingLines3] = extractArmorValueAndCleanText(remainingLines2);
 
   // combine lines and remove any remaining plus signs
   const combinedText = remainingLines3.join(' ').replace(/\+/g, '');
 
-  const [implicitAffixes, combinedText2] = extractImplicitAffixes(
-    itemType,
-    cleanBeforeExtraction(combinedText),
-  );
+  const [implicitAffixes, combinedText2] = extractImplicitAffixes(itemType, cleanBeforeExtraction(combinedText));
 
-  const [affixes, combinedText3] = extractAffixesAndCleanText(
-    cleanBeforeExtraction(combinedText2),
-  );
+  const [affixes, combinedText3] = extractAffixesAndCleanText(cleanBeforeExtraction(combinedText2));
 
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const [aspect, combinedText4] = extractAspectsAndCleanText(
-    cleanBeforeExtraction(combinedText3),
-  );
+  const [aspect, combinedText4] = extractAspectsAndCleanText(cleanBeforeExtraction(combinedText3));
 
   return {
     id: uuid(),
@@ -221,13 +193,10 @@ function extractDetailsBeforePower(combinedText: string): ItemTypeDetails {
   // of a hyphenated word and the lines have been rejoined with a space.
   // barbarians get an extra " (damage type)" descriptor on their screen, so removing it
   // to match the type better.
-  const text = combinedText
-    .replace(/-\s|\s-/g, '-')
-    .replace(/\s+\([^)]*\)$/, '');
+  const text = combinedText.replace(/-\s|\s-/g, '-').replace(/\s+\([^)]*\)$/, '');
 
   const sortedItemTypes = [...ItemTypes].sort((a, b) => b.length - a.length);
-  const itemType =
-    sortedItemTypes.find((type) => text.endsWith(type)) ?? 'Unknown';
+  const itemType = sortedItemTypes.find((type) => text.endsWith(type)) ?? 'Unknown';
 
   const typeIndex = text.indexOf(itemType);
   let precedingWords = text.substring(0, typeIndex).trim().split(' ');
@@ -253,8 +222,7 @@ function extractDetailsBeforePower(combinedText: string): ItemTypeDetails {
     .replace(/^[^a-zA-Z]+/, '')
     .trim();
 
-  const category =
-    ItemTypeToCategoryMap[itemType as keyof typeof ItemTypeToCategoryMap];
+  const category = ItemTypeToCategoryMap[itemType as keyof typeof ItemTypeToCategoryMap];
 
   return { category, name, quality, rarity, itemType };
 }

@@ -42,13 +42,9 @@ function correctBracketErrors(text: string): string {
   return text.replace(/\[(\d+\.?\d*( - \d+\.?\d*)?)1%/g, '[$1]%');
 }
 
-function extractAspectsAndCleanText(
-  combinedText: string,
-): [AspectDetails | null, string] {
+function extractAspectsAndCleanText(combinedText: string): [AspectDetails | null, string] {
   // const unmodifiedText = combinedText;
-  combinedText = cleanTextForMatching(
-    removeBracketsAndContents(correctBracketErrors(combinedText)),
-  );
+  combinedText = cleanTextForMatching(removeBracketsAndContents(correctBracketErrors(combinedText)));
 
   let extractedAspect = null;
 

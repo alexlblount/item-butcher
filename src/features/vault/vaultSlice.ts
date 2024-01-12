@@ -29,9 +29,7 @@ export const vaultSlice = createSlice({
     },
     // Add other reducers as needed
     updateItem: (state, action: PayloadAction<Item>) => {
-      const index = state.items.findIndex(
-        (item) => item.id === action.payload.id,
-      );
+      const index = state.items.findIndex((item) => item.id === action.payload.id);
       if (index !== -1) {
         state.items[index] = action.payload;
       }
@@ -40,15 +38,12 @@ export const vaultSlice = createSlice({
 });
 
 // Selector to get unique, sorted itemTypes
-export const selectUniqueSortedItemTypes = createSelector(
-  [(state: RootState) => state.vault.items],
-  (items) => {
-    const itemTypes = items.map((item) => item.itemType);
-    const uniqueItemTypes = Array.from(new Set(itemTypes));
-    uniqueItemTypes.sort();
-    return uniqueItemTypes;
-  },
-);
+export const selectUniqueSortedItemTypes = createSelector([(state: RootState) => state.vault.items], (items) => {
+  const itemTypes = items.map((item) => item.itemType);
+  const uniqueItemTypes = Array.from(new Set(itemTypes));
+  uniqueItemTypes.sort();
+  return uniqueItemTypes;
+});
 
 export const { addItem, deleteItem, updateItem } = vaultSlice.actions;
 

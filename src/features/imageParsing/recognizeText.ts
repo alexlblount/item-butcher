@@ -1,8 +1,6 @@
 import Tesseract from 'tesseract.js';
 
-async function recognizeTextFromImage(
-  imageFile: File | string,
-): Promise<string> {
+async function recognizeTextFromImage(imageFile: File | string): Promise<string> {
   try {
     const result = await Tesseract.recognize(imageFile, 'eng');
     return cleanLines(result.data.text);
@@ -44,9 +42,7 @@ function cleanLines(ocrText: string): string {
       return acc;
     }, [])
     .map((line) => {
-      let str = /^(©|®|\+|\*)\s/.test(line)
-        ? line.substring(2)
-        : line.replace(/©|®/g, 'O');
+      let str = /^(©|®|\+|\*)\s/.test(line) ? line.substring(2) : line.replace(/©|®/g, 'O');
 
       str = str
         // "OF" in the exocent font often gets transformed to "OFf"

@@ -1,18 +1,27 @@
 import { createBrowserRouter } from 'react-router-dom';
-import App from './App';
-import ErrorPage from './pages/ErrorPage';
+import MainLayout from '@features/layout/MainLayout';
+import ErrorView from '@features/layout/ErrorView';
 import TestPage from './pages/TestPage';
 import VaultPage from './pages/VaultPage';
 
 const router = createBrowserRouter([
   {
-    path: '/',
-    element: <App />,
-    errorElement: <ErrorPage />,
-  },
-  {
-    path: '/vault',
-    element: <VaultPage />,
+    element: <MainLayout />,
+    errorElement: <ErrorView />,
+    children: [
+      {
+        path: '/',
+        element: <VaultPage />,
+      },
+      {
+        path: 'vault',
+        element: <VaultPage />,
+      },
+      {
+        path: 'aspects',
+        element: <h1>Aspects Page</h1>,
+      },
+    ],
   },
   {
     path: '/test',

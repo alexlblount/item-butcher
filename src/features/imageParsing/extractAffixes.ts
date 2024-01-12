@@ -16,9 +16,7 @@ function convertToNumberOrDefault(value: string): number | string {
   return isNaN(parsedValue) ? value : parsedValue;
 }
 
-function extractAffixesAndCleanText(
-  combinedText: string,
-): [Record<string, number | string>, string] {
+function extractAffixesAndCleanText(combinedText: string): [Record<string, number | string>, string] {
   const extractedAffixes: Record<string, number | string> = {};
 
   affixData.sort((a, b) => b.text.length - a.text.length);
@@ -35,9 +33,7 @@ function extractAffixesAndCleanText(
     if (match) {
       // match[1] will be the number if its an affix with a number.
       // match[0] will be the entire string that matches if there is no number.
-      extractedAffixes[affix.affix] = convertToNumberOrDefault(
-        match[1] || match[0],
-      );
+      extractedAffixes[affix.affix] = convertToNumberOrDefault(match[1] || match[0]);
       combinedText = combinedText.replace(regex, '');
     }
   });
