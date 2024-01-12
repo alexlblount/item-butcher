@@ -4,8 +4,8 @@ import { Item, parseInitialInfo } from '@features/imageParsing/transformText';
 import { preprocessImage } from '@features/imageCapture/preprocessImage';
 import { recognizeTextFromImage } from '@features/imageParsing/recognizeText';
 import CaptureContainer from '@features/imageCapture/CaptureContainer';
-import styles from './TestPage.module.css';
 import Navigation from '@features/layout/Navigation';
+import styles from './TestPage.module.css';
 
 export default function TestPage() {
   const [extractedText, setExtractedText] = useState('');
@@ -63,7 +63,10 @@ export default function TestPage() {
       <div className={styles.testPage}>
         <div style={{ textAlign: 'center' }}>
           <h1 className={styles.diabloTitle}>Item Recognition Test Page</h1>
-          <p className={styles.diabloText}>Click anywhere on the page and paste an image of an item to test processing.</p>
+          <p className={styles.diabloText}>
+            Click anywhere on the page and paste an image of an item to test processing. Items pasted here will not be added to
+            the vault.
+          </p>
         </div>
         <div className={styles.container}>
           <div className={styles.imageColumn}>
