@@ -1,3 +1,5 @@
+import { saveImageData } from '@features/imageParsing/thumbnailer';
+
 export interface ImageDataObject {
   canvas: HTMLCanvasElement;
   image: HTMLImageElement;
@@ -137,9 +139,10 @@ function coverCornerImage(imageDataObject: ImageDataObject): void {
 
 function preprocessImage(image: HTMLImageElement): {
   canvas: HTMLCanvasElement;
-  cornerImageUrl: string;
+  // cornerImageUrl: string;
   cornerHeight: number;
   cornerWidth: number;
+  imageStorageKey: string;
 } {
   const imageDataObject = createImageData(image);
 
@@ -167,6 +170,9 @@ function preprocessImage(image: HTMLImageElement): {
   // Extract the corner image as a data URL
   const { cornerImageUrl, cornerHeight, cornerWidth } = extractCornerImage(image, 0.3);
 
+  // store the data url in session storage
+  const key = saveImageData(cornerImageUrl);
+
   // Then apply other preprocessing steps
   coverCornerImage(imageDataObject);
   convertToGrayscale(imageDataObject);
@@ -176,9 +182,10 @@ function preprocessImage(image: HTMLImageElement): {
   // return imageDataObject.canvas;
   return {
     canvas: imageDataObject.canvas,
-    cornerImageUrl,
+    // cornerImageUrl,
     cornerHeight,
     cornerWidth,
+    imageStorageKey: key,
   };
 }
 

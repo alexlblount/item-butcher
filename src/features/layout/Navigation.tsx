@@ -24,25 +24,27 @@ function TabLink({ to, children }: CustomNavLinkProps) {
 
 export default function Navigation() {
   return (
-    <nav className={styles.nav}>
-      <div className={styles.titleContainer}>
-        <div className={styles.icon}>
-          <img src={butcher} alt="Butcher" className={styles.logo} />
+    <header className={styles.siteHeader}>
+      <nav className={styles.nav}>
+        <div className={styles.titleContainer}>
+          <div className={styles.icon}>
+            <img src={butcher} alt="Butcher" className={styles.logo} />
+          </div>
+          <div className={styles.title}>Item Butcher</div>
         </div>
-        <div className={styles.title}>Item Butcher</div>
-      </div>
-      <ul className={styles.navList}>
-        <li className={styles.navItem}>
-          <TabLink to="/vault">Vault</TabLink>
-        </li>
-        <li className={styles.navItem}>
-          <TabLink to="/aspects">Aspects</TabLink>
-        </li>
-        <li className={styles.navItem}>
-          <TabLink to="/test">Test</TabLink>
-        </li>
-      </ul>
-      <div className={styles.filler} />
-    </nav>
+        <ul className={styles.navList}>
+          <li className={styles.navItem}>
+            <TabLink to="/vault">Vault</TabLink>
+          </li>
+          <li className={styles.navItem}>
+            <TabLink to="/aspects">Aspects</TabLink>
+          </li>
+          <li className={styles.navItem}>
+            <TabLink to="/test">Test</TabLink>
+          </li>
+        </ul>
+        <div className={styles.filler} />
+      </nav>
+    </header>
   );
 }

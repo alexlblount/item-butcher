@@ -16,14 +16,15 @@ export default function MainLayout() {
 
     image.onload = async () => {
       // Preprocess the image (includes grayscale conversion, thresholding, etc.)
-      const { canvas, cornerImageUrl, cornerHeight, cornerWidth } = preprocessImage(image);
+      const { canvas, cornerHeight, cornerWidth, imageStorageKey } = preprocessImage(image);
 
       // Use the preprocessed image for OCR text recognition
       const text = await recognizeTextFromImage(canvas.toDataURL());
 
       // parse the recognized text and add the icon URL
       const newItem = parseInitialInfo(text);
-      newItem.iconDataUrl = cornerImageUrl;
+      // newItem.iconDataUrl = cornerImageUrl;
+      newItem.imageStorageKey = imageStorageKey;
       newItem.iconHeight = cornerHeight;
       newItem.iconWidth = cornerWidth;
 

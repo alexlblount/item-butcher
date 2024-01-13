@@ -67,9 +67,9 @@ export interface Item extends ItemTypeDetails {
   implicitAffixes: Record<string, number | string>;
   upgradePower: number | null;
   upgrades: number | null;
-  iconDataUrl?: string;
   iconHeight?: number;
   iconWidth?: number;
+  imageStorageKey?: string;
 }
 
 export interface JsonData {

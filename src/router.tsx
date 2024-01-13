@@ -1,7 +1,8 @@
 import { createBrowserRouter } from 'react-router-dom';
-import MainLayout from '@features/layout/MainLayout';
+import AspectPage from '@features/aspects/AspectPage';
 import ErrorView from '@features/layout/ErrorView';
-import TestPage from './features/imageCapture/TestPage';
+import MainLayout from '@features/layout/MainLayout';
+import TestPage from '@features/imageCapture/TestPage';
 import VaultPage from '@features/vault/VaultPage';
 
 const router = createBrowserRouter([
@@ -19,7 +20,7 @@ const router = createBrowserRouter([
       },
       {
         path: 'aspects',
-        element: <h1>Aspects Page</h1>,
+        element: <AspectPage />,
       },
     ],
   },

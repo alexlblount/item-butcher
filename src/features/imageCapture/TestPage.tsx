@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import ReactJson from 'react-json-view';
-// local
+// aliased
+import { getImageData } from '@features/imageParsing/thumbnailer';
 import { Item, parseInitialInfo } from '@features/imageParsing/transformText';
 import { recognizeTextFromImage } from '@features/imageParsing/recognizeText';
 import Navigation from '@features/layout/Navigation';
@@ -41,8 +42,9 @@ export default function TestPage() {
 
     image.onload = async () => {
       // Preprocess the image (includes grayscale conversion, thresholding, etc.)
-      const { canvas, cornerImageUrl, cornerHeight, cornerWidth } = preprocessImage(image);
-      setIconUrl(cornerImageUrl);
+      const { canvas, cornerHeight, cornerWidth, imageStorageKey } = preprocessImage(image);
+      const cornerImageUrl = getImageData(imageStorageKey);
+      setIconUrl(cornerImageUrl || '');
       setIconDimensions([Math.round(cornerWidth), Math.round(cornerHeight)]);
 
       // Use the preprocessed image for OCR
