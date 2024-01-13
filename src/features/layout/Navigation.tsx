@@ -1,7 +1,9 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import classnames from 'classnames/bind';
+import butcher from '@src/assets/butcher.png';
 import styles from './Navigation.module.css';
+
 const cx = classnames.bind(styles);
 
 interface CustomNavLinkProps {
@@ -23,7 +25,12 @@ function TabLink({ to, children }: CustomNavLinkProps) {
 export default function Navigation() {
   return (
     <nav className={styles.nav}>
-      <div className={styles.siteTitle}>Item Butcher</div>
+      <div className={styles.titleContainer}>
+        <div className={styles.icon}>
+          <img src={butcher} alt="Butcher" className={styles.logo} />
+        </div>
+        <div className={styles.title}>Item Butcher</div>
+      </div>
       <ul className={styles.navList}>
         <li className={styles.navItem}>
           <TabLink to="/vault">Vault</TabLink>

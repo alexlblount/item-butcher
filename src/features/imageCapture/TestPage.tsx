@@ -1,10 +1,12 @@
 import { useState } from 'react';
 import ReactJson from 'react-json-view';
+// local
 import { Item, parseInitialInfo } from '@features/imageParsing/transformText';
-import { preprocessImage } from '@features/imageCapture/preprocessImage';
 import { recognizeTextFromImage } from '@features/imageParsing/recognizeText';
-import CaptureContainer from '@features/imageCapture/CaptureContainer';
 import Navigation from '@features/layout/Navigation';
+// relative
+import { preprocessImage } from './preprocessImage';
+import CaptureContainer from './CaptureContainer';
 import styles from './TestPage.module.css';
 
 export default function TestPage() {

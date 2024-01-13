@@ -10,13 +10,30 @@
   padding-top: 4px;
 }
 
-.siteTitle {
-  padding: 14px 16px; /* Align with nav items */
+.titleContainer {
   /* Style your site title here */
   color: #ddd;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #111;
   font-family: 'exocet';
   font-weight: bold;
+
+  display: flex; /* Use flexbox */
+  align-items: center; /* Center items vertically */
+  gap: 4px; /* Adjust the space between the icon and text */
+}
+
+.icon {
+  padding-left: 16px; /* Align with nav items */
+
+  img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.title {
+  padding: 14px 24px; /* Align with nav items */
+  padding-left: 0;
 }
 
 .navList {
@@ -42,26 +59,26 @@
   color: #ccc;
   border-top-right-radius: 8px;
   border-top-left-radius: 8px;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #111;
 }
 
 .navLink:hover {
   background-color: #913333;
-  border-color: #000;
+  border-color: #111;
   color: white;
 }
 
 .active {
   background-color: #242424;
-  border-color: #000;
+  border-color: #111;
   color: white;
-  border: 1px solid #000;
+  border: 1px solid #111;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
 }
 
 .active:hover {
   background-color: #242424;
-  border-color: #000;
+  border-color: #111;
   color: white;
 }
 
@@ -72,5 +89,5 @@
 
 .filler {
   flex-grow: 1; /* Take up remaining space */
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #111;
 }

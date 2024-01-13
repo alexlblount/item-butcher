@@ -6,9 +6,10 @@ export interface Aspect {
 }
 
 export interface AspectDetails {
+  imprinted: boolean;
+  text: string;
   type: string;
   values: (number | string)[];
-  text: string;
 }
 
 const aspects = aspectData as Aspect[];
@@ -57,7 +58,8 @@ function extractAspectsAndCleanText(combinedText: string): [AspectDetails | null
     const match = regex.exec(combinedText);
     if (match) {
       const values = match.slice(1).map(convertToNumberOrDefault);
-      extractedAspect = { text: match[0] || '', type: aspect.aspect, values };
+      const imprinted = combinedText.toLowerCase().includes('imprinted');
+      extractedAspect = { text: match[0] || '', type: aspect.aspect, values, imprinted };
       combinedText = combinedText.replace(match[0], '');
       break; // Exit after the first match
     }

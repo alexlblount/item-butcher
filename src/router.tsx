@@ -1,8 +1,8 @@
 import { createBrowserRouter } from 'react-router-dom';
 import MainLayout from '@features/layout/MainLayout';
 import ErrorView from '@features/layout/ErrorView';
-import TestPage from './pages/TestPage';
-import VaultPage from './pages/VaultPage';
+import TestPage from './features/imageCapture/TestPage';
+import VaultPage from '@features/vault/VaultPage';
 
 const router = createBrowserRouter([
   {

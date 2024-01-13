@@ -1,6 +1,6 @@
-import { selectUniqueSortedItemTypes } from '@features/vault/vaultSlice';
 import { useAppSelector } from '@src/state/hooks';
-import ItemTile from '@features/vault/ItemTile';
+import { selectUniqueSortedItemTypes } from './vaultSlice';
+import ItemTile from './ItemTile';
 import styles from './VaultPage.module.css';
 
 export default function VaultPage() {
