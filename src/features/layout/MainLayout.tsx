@@ -10,11 +10,12 @@ import Navigation from './Navigation';
 export default function MainLayout() {
   const dispatch = useAppDispatch();
 
-  const handleImagePaste = async (imageFile: File) => {
+  const handleImagePaste = async (imageFile: File, setLoading?: (loading: boolean) => void) => {
     // Create an Image element to work with the file
     const image = new Image();
 
     image.onload = async () => {
+      if (setLoading) setLoading(true);
       // Preprocess the image (includes grayscale conversion, thresholding, etc.)
       const { canvas, cornerHeight, cornerWidth, imageStorageKey } = preprocessImage(image);
 
@@ -23,7 +24,6 @@ export default function MainLayout() {
 
       // parse the recognized text and add the icon URL
       const newItem = parseInitialInfo(text);
-      // newItem.iconDataUrl = cornerImageUrl;
       newItem.imageStorageKey = imageStorageKey;
       newItem.iconHeight = cornerHeight;
       newItem.iconWidth = cornerWidth;
@@ -33,6 +33,7 @@ export default function MainLayout() {
 
       // Clean up the object URL to avoid memory leaks
       URL.revokeObjectURL(image.src);
+      if (setLoading) setLoading(false);
     };
 
     image.src = URL.createObjectURL(imageFile);

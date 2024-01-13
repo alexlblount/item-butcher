@@ -37,12 +37,25 @@ export const vaultSlice = createSlice({
   },
 });
 
+// state selectors
+const selectItems = (state: RootState) => state.vault.items;
+
 // Selector to get unique, sorted itemTypes
-export const selectUniqueSortedItemTypes = createSelector([(state: RootState) => state.vault.items], (items) => {
+export const selectUniqueSortedItemTypes = createSelector([selectItems], (items) => {
   const itemTypes = items.map((item) => item.itemType);
   const uniqueItemTypes = Array.from(new Set(itemTypes));
   uniqueItemTypes.sort();
   return uniqueItemTypes;
+});
+
+// Selector to get unique aspect types
+export const selectLegendaryAspectTypes = createSelector([selectItems], (items) => {
+  const allTypes = items
+    .filter((item) => item.rarity === 'Legendary')
+    .map((item) => item.aspect?.type)
+    .filter((type): type is string => !!type);
+  console.log({ allTypes });
+  return Array.from(new Set(allTypes));
 });
 
 export const { addItem, deleteItem, updateItem } = vaultSlice.actions;
