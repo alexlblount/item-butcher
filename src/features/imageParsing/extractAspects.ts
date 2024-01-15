@@ -14,6 +14,7 @@ export interface AspectDetails {
 
 const aspects = aspectData as Aspect[];
 aspects.sort((a, b) => b.text.length - a.text.length);
+export { aspects };
 
 function convertToNumberOrDefault(value: string): number | string {
   const parsedValue = parseFloat(value);
@@ -50,9 +51,19 @@ function extractAspectsAndCleanText(combinedText: string): [AspectDetails | null
   let extractedAspect = null;
 
   for (const aspect of aspects) {
+    // // original pattern.  matched pretty well, but it would include static numbers
+    // // in the text pattern in the results of the values array
+    // const regexPattern = cleanTextForMatching(aspect.text)
+    //   .replace(/#\.#%|#|(\d+\.\d+%|\d+%|\d+\.\d+|\d+)/g, '(\\d+\\.\\d+|\\d+)%?')
+    //   .replace(/\s+/g, '\\s*');
+
+    // Replace '#' with a regex pattern that matches numbers, decimals, and percentages
+    // in addition, i simplified the regex pattern to just # to match any dynamic number
+    // or percentage
     const regexPattern = cleanTextForMatching(aspect.text)
-      .replace(/#\.#%|#|(\d+\.\d+%|\d+%|\d+\.\d+|\d+)/g, '(\\d+\\.\\d+|\\d+)%?')
+      .replace(/#/g, '(\\d+\\.\\d+%?|\\d+%?)') // Match number, decimal, or percentage
       .replace(/\s+/g, '\\s*');
+
     const regex = new RegExp(regexPattern, 'gi');
 
     const match = regex.exec(combinedText);

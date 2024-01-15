@@ -49,12 +49,8 @@ export const selectUniqueSortedItemTypes = createSelector([selectItems], (items)
 });
 
 // Selector to get unique aspect types
-export const selectLegendaryAspectTypes = createSelector([selectItems], (items) => {
-  const allTypes = items
-    .filter((item) => item.rarity === 'Legendary')
-    .map((item) => item.aspect?.type)
-    .filter((type): type is string => !!type);
-  console.log({ allTypes });
+export const selectAspectTypes = createSelector([selectItems], (items) => {
+  const allTypes = items.map((item) => item.aspect?.type).filter((type): type is string => !!type);
   return Array.from(new Set(allTypes));
 });
 

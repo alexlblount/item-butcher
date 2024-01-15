@@ -29,8 +29,7 @@ const spellingCorrections = [
   { incorrect: 'Neaby', correct: 'Nearby' },
   { incorrect: 'Poision', correct: 'Poison' },
   {
-    incorrect:
-      'The other properties of this weapon can roll higher than normal',
+    incorrect: 'The other properties of this weapon can roll higher than normal',
     correct: 'The other properties on this weapon can roll higher than normal',
   },
   {
@@ -41,10 +40,7 @@ const spellingCorrections = [
 
 function applySpellingCorrections(text, corrections) {
   corrections.forEach((correction) => {
-    text = text.replace(
-      new RegExp(correction.incorrect, 'gi'),
-      correction.correct,
-    );
+    text = text.replace(new RegExp(correction.incorrect, 'gi'), correction.correct);
   });
   return text;
 }
@@ -56,10 +52,7 @@ function transformLegendaryAspects() {
   const data = JSON.parse(rawData);
 
   const transformedData = data.result.pageContext.codexes.map((aspect) => {
-    const description = applySpellingCorrections(
-      aspect.description,
-      spellingCorrections,
-    );
+    const description = applySpellingCorrections(aspect.description, spellingCorrections);
 
     return {
       aspect: camelCase(
@@ -76,9 +69,8 @@ function transformLegendaryAspects() {
       text: description
         .replace(/\u2013/g, '-') // Replace en dash with normal hyphen
         .replace(/\u2019/g, "'") // Replace U+2019 with normal apostrophe
-        .replace(/\[\d+\.?\d*%?(-\d+\.?\d*%?)?\]/g, (match) =>
-          match.includes('%') ? '#.#%' : '#',
-        )
+        // .replace(/\[\d+\.?\d*%?(-\d+\.?\d*%?)?\]/g, (match) => (match.includes('%') ? '#.#%' : '#'))
+        .replace(/\[\d+\.?\d*%?(-\d+\.?\d*%?)?\]/g, '#') // matching the simplified matcher '#' format of the data
         .replace(/\[X\]/gi, '#') // Replace [X] with #
         .replace(/ x /gi, ' ') // Replace " x " with " "
         .replace(/\.$/g, '') // Replace period at the end with a blank
@@ -119,9 +111,7 @@ function transformUniqueAspects() {
       text: effect
         .replace(/\u2013/g, '-') // Replace en dash with normal hyphen
         .replace(/\u2019/g, "'") // Replace U+2019 with normal apostrophe
-        .replace(/\[\d+\.?\d*%?(-\d+\.?\d*%?)?\]/g, (match) =>
-          match.includes('%') ? '#.#%' : '#',
-        )
+        .replace(/\[\d+\.?\d*%?(-\d+\.?\d*%?)?\]/g, (match) => (match.includes('%') ? '#.#%' : '#'))
         .replace(/\[X\]/gi, '#') // Replace [X] with #
         .replace(/ x /gi, ' ') // Replace " x " with " "
         .replace(/\.$/g, '') // Replace period at the end with a blank
@@ -144,13 +134,8 @@ const uniqueAspects = transformUniqueAspects();
 const transformedData = [...legendaryAspects, ...uniqueAspects];
 
 // Alphabetize the final result by affix name
-const sortedTransformedData = transformedData.sort((a, b) =>
-  a.aspect.localeCompare(b.aspect),
-);
+const sortedTransformedData = transformedData.sort((a, b) => a.aspect.localeCompare(b.aspect));
 
 console.log(`Total Aspects Created: ${sortedTransformedData.length}`);
 
-fs.writeFileSync(
-  'src/assets/aspects.master.json',
-  JSON.stringify(sortedTransformedData, null, 2),
-);
+fs.writeFileSync('src/assets/aspects.master.json', JSON.stringify(sortedTransformedData, null, 2));

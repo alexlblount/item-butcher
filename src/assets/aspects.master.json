@@ -11,7 +11,7 @@
     "aspect": "abundantEnergy",
     "class": "sorcerer",
     "name": "Aspect of Abundant Energy",
-    "text": "Crackling Energy has a #.#% chance to chain to an additional enemy",
+    "text": "Crackling Energy has a # chance to chain to an additional enemy",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -19,7 +19,7 @@
     "aspect": "accelerating",
     "class": "all",
     "name": "Accelerating Aspect",
-    "text": "Critical Strikes with Core Skills increase your Attack Speed by #.#% for 5 seconds",
+    "text": "Critical Strikes with Core Skills increase your Attack Speed by # for 5 seconds",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -27,7 +27,7 @@
     "aspect": "aftershock",
     "class": "druid",
     "name": "Aspect of The Aftershock",
-    "text": "Landslide's earth pillars each strike a second time and deal an additional #.#% bonus damage per hit",
+    "text": "Landslide's earth pillars each strike a second time and deal an additional # bonus damage per hit",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -51,7 +51,7 @@
     "aspect": "alpha",
     "class": "druid",
     "name": "Aspect of the Alpha",
-    "text": "Your Wolf Companions are now Werewolf Companions. Werewolf Companions deal #.#% additional damage and can spread Rabies",
+    "text": "Your Wolf Companions are now Werewolf Companions. Werewolf Companions deal # additional damage and can spread Rabies",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -59,7 +59,7 @@
     "aspect": "ancestralCharge",
     "class": "barbarian",
     "name": "Aspect of Ancestral Charge",
-    "text": "Charge calls forth 4 Ancients who also Charge, dealing #.#% of normal damage",
+    "text": "Charge calls forth 4 Ancients who also Charge, dealing # of normal damage",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -67,7 +67,7 @@
     "aspect": "ancestralEchoes",
     "class": "barbarian",
     "name": "Aspect of Ancestral Echoes",
-    "text": "Lucky Hit: While Call of the Ancients is on your Action Bar, damaging enemies with Leap, Upheaval, or Whirlwind has up to a #.#% chance to summon an Ancient to perform the same Skill",
+    "text": "Lucky Hit: While Call of the Ancients is on your Action Bar, damaging enemies with Leap, Upheaval, or Whirlwind has up to a # chance to summon an Ancient to perform the same Skill",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -75,7 +75,7 @@
     "aspect": "ancestralForce",
     "class": "barbarian",
     "name": "Aspect of Ancestral Force",
-    "text": "Hammer of the Ancients quakes outward and its damage is increased by #.#%",
+    "text": "Hammer of the Ancients quakes outward and its damage is increased by #",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -83,7 +83,7 @@
     "aspect": "ancientFlame",
     "class": "sorcerer",
     "name": "Aspect of Ancient Flame",
-    "text": "While both bonuses from Esu's Ferocity Key Passive are active, your Attack Speed is increased by #.#%",
+    "text": "While both bonuses from Esu's Ferocity Key Passive are active, your Attack Speed is increased by #",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -91,7 +91,7 @@
     "aspect": "ancientsOath",
     "class": "barbarian",
     "name": "Ancients' Oath",
-    "text": "Steel Grasp launches 2 additional chains. Enemies that have been pulled by Steel Grasp take #.#% bonus damage from you for 3 seconds",
+    "text": "Steel Grasp launches 2 additional chains. Enemies that have been pulled by Steel Grasp take # bonus damage from you for 3 seconds",
     "type": "unique",
     "rarity": "unique"
   },
@@ -99,7 +99,7 @@
     "aspect": "andarielsVisage",
     "class": "all",
     "name": "Andariel's Visage",
-    "text": "Lucky Hit: Up to a #.#% chance to trigger a poison nova that applies # Poisoning damage over 5 seconds to enemies in the area",
+    "text": "Lucky Hit: Up to a # chance to trigger a poison nova that applies # Poisoning damage over 5 seconds to enemies in the area",
     "type": "unique",
     "rarity": "unique"
   },
@@ -107,7 +107,7 @@
     "aspect": "anemia",
     "class": "barbarian",
     "name": "Aspect of Anemia",
-    "text": "Lucky Hit: Direct damage against Bleeding enemies has up to a #.#% chance to Stun them for 2 seconds",
+    "text": "Lucky Hit: Direct damage against Bleeding enemies has up to a # chance to Stun them for 2 seconds",
     "type": "utility",
     "rarity": "legendary"
   },
@@ -139,7 +139,7 @@
     "aspect": "ashearasKhanjar",
     "class": "rogue",
     "name": "Asheara's Khanjar",
-    "text": "Hits with this weapon increase your Attack Speed by #.#% for 4 seconds, up to #.#%",
+    "text": "Hits with this weapon increase your Attack Speed by # for 4 seconds, up to #",
     "type": "unique",
     "rarity": "unique"
   },
@@ -187,7 +187,7 @@
     "aspect": "banishedLordsTalisman",
     "class": "all",
     "name": "Banished Lord's Talisman",
-    "text": "After you spend 300 of your Primary Resource, your next Core Skill is guaranteed to Overpower. Your Critical Strikes that Overpower deal #.#% increased damage",
+    "text": "After you spend 300 of your Primary Resource, your next Core Skill is guaranteed to Overpower. Your Critical Strikes that Overpower deal # increased damage",
     "type": "unique",
     "rarity": "unique"
   },
@@ -195,7 +195,7 @@
     "aspect": "battleCaster",
     "class": "sorcerer",
     "name": "Battle Caster's Aspect",
-    "text": "Lucky Hit: When your Conjuration Skills hit you have up to a #.#% chance to gain 1 Rank to your Conjuration skills for 12 seconds. This can stack up to 3 times",
+    "text": "Lucky Hit: When your Conjuration Skills hit you have up to a # chance to gain 1 Rank to your Conjuration skills for 12 seconds. This can stack up to 3 times",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -211,7 +211,7 @@
     "aspect": "battleTrance",
     "class": "barbarian",
     "name": "Battle Trance",
-    "text": "Increase Frenzy's maximum stacks by 2. While you have maximum Frenzy, your other Skills gain #.#% increased Attack Speed",
+    "text": "Increase Frenzy's maximum stacks by 2. While you have maximum Frenzy, your other Skills gain # increased Attack Speed",
     "type": "unique",
     "rarity": "unique"
   },
@@ -219,7 +219,7 @@
     "aspect": "bearClanBerserker",
     "class": "barbarian",
     "name": "Bear Clan Berserker's Aspect",
-    "text": "Killing an enemy while Berserking has a 40% chance to grant #.#% increased Cooldown Reduction to your Brawling Skills for 2 seconds",
+    "text": "Killing an enemy while Berserking has a 40% chance to grant # increased Cooldown Reduction to your Brawling Skills for 2 seconds",
     "type": "resource",
     "rarity": "legendary"
   },
@@ -235,7 +235,7 @@
     "aspect": "berserkRipping",
     "class": "barbarian",
     "name": "Aspect of Berserk Ripping",
-    "text": "Whenever you deal direct damage while Berserking, inflict #.#% of the Base damage dealt as additional Bleeding damage over 5 seconds",
+    "text": "Whenever you deal direct damage while Berserking, inflict # of the Base damage dealt as additional Bleeding damage over 5 seconds",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -251,7 +251,7 @@
     "aspect": "bitingCold",
     "class": "sorcerer",
     "name": "Aspect of Biting Cold",
-    "text": "When you Freeze an enemy there is a #.#% chance they become Vulnerable for 3 seconds",
+    "text": "When you Freeze an enemy there is a # chance they become Vulnerable for 3 seconds",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -267,7 +267,7 @@
     "aspect": "bladedancer",
     "class": "rogue",
     "name": "Bladedancer's Aspect",
-    "text": "Twisting Blades orbit for a short time after they return to you, dealing #.#% of Twisting Blades' return damage per hit. Based on the distance the blades returned, the orbit damage increases up to #.#% of the return damage",
+    "text": "Twisting Blades orbit for a short time after they return to you, dealing # of Twisting Blades' return damage per hit. Based on the distance the blades returned, the orbit damage increases up to # of the return damage",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -275,7 +275,7 @@
     "aspect": "blastTrapper",
     "class": "rogue",
     "name": "Blast-Trapper's Aspect",
-    "text": "Lucky Hit: Dealing direct damage to enemies affected by your Trap Skills has up to a #.#% chance to make them Vulnerable for 3 seconds",
+    "text": "Lucky Hit: Dealing direct damage to enemies affected by your Trap Skills has up to a # chance to make them Vulnerable for 3 seconds",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -283,7 +283,7 @@
     "aspect": "blighted",
     "class": "necromancer",
     "name": "Blighted Aspect",
-    "text": "You deal #.#% increased damage for 6 seconds after the Shadowblight Key Passive damages enemies 10 times",
+    "text": "You deal # increased damage for 6 seconds after the Shadowblight Key Passive damages enemies 10 times",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -299,7 +299,7 @@
     "aspect": "bloodBathed",
     "class": "necromancer",
     "name": "Blood-bathed Aspect",
-    "text": "Blood Surge's nova echoes again after a short delay, dealing #.#% less damage",
+    "text": "Blood Surge's nova echoes again after a short delay, dealing # less damage",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -315,7 +315,7 @@
     "aspect": "bloodlessScream",
     "class": "necromancer",
     "name": "Bloodless Scream",
-    "text": "Your Darkness Skills Chill enemies for up to 100%. Lucky Hit: Your Darkness Skills deal #.#% bonus damage to Frozen enemies and have up to a 100% chance to generate # additional Essence against Frozen targets",
+    "text": "Your Darkness Skills Chill enemies for up to 100%. Lucky Hit: Your Darkness Skills deal # bonus damage to Frozen enemies and have up to a 100% chance to generate # additional Essence against Frozen targets",
     "type": "unique",
     "rarity": "unique"
   },
@@ -323,7 +323,7 @@
     "aspect": "bloodMoonBreeches",
     "class": "necromancer",
     "name": "Blood Moon Breeches",
-    "text": "Your Minions have a #.#% chance to curse enemies. Enemies affected by at least 1 of your curses take x70% increased Overpower damage from you",
+    "text": "Your Minions have a # chance to curse enemies. Enemies affected by at least 1 of your curses take x70% increased Overpower damage from you",
     "type": "unique",
     "rarity": "unique"
   },
@@ -331,7 +331,7 @@
     "aspect": "bloodSeeker",
     "class": "necromancer",
     "name": "Blood Seeker's Aspect",
-    "text": "Blood Lance deals #.#% increased damage to its primary target per lanced enemy",
+    "text": "Blood Lance deals # increased damage to its primary target per lanced enemy",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -355,7 +355,7 @@
     "aspect": "blurredBeast",
     "class": "druid",
     "name": "Aspect of the Blurred Beast",
-    "text": "While dashing, Shred seeks out Nearby Poisoned enemies instantly dealing #.#% of the Poisoning damage to them",
+    "text": "While dashing, Shred seeks out Nearby Poisoned enemies instantly dealing # of the Poisoning damage to them",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -371,7 +371,7 @@
     "aspect": "boundingConduit",
     "class": "sorcerer",
     "name": "Aspect of the Bounding Conduit",
-    "text": "Gain #.#% Movement Speed for 3 seconds after Teleporting",
+    "text": "Gain # Movement Speed for 3 seconds after Teleporting",
     "type": "mobility",
     "rarity": "legendary"
   },
@@ -379,7 +379,7 @@
     "aspect": "branchingVolleys",
     "class": "rogue",
     "name": "Aspect of Branching Volleys",
-    "text": "Barrage's arrows have a #.#% chance to split into 2 arrows whenever they ricochet",
+    "text": "Barrage's arrows have a # chance to split into 2 arrows whenever they ricochet",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -395,7 +395,7 @@
     "aspect": "bulKathos",
     "class": "barbarian",
     "name": "Aspect of Bul-Kathos",
-    "text": "Leap creates an Earthquake that deals # Physical damage over 4 seconds. While standing in Earthquakes, you gain #.#% increased Damage Reduction",
+    "text": "Leap creates an Earthquake that deals # Physical damage over 4 seconds. While standing in Earthquakes, you gain # increased Damage Reduction",
     "type": "defensive",
     "rarity": "legendary"
   },
@@ -427,7 +427,7 @@
     "aspect": "cadaverous",
     "class": "necromancer",
     "name": "Cadaverous Aspect",
-    "text": "Consuming a Corpse increases the damage of your next Core Skill by #.#%, up to #.#%",
+    "text": "Consuming a Corpse increases the damage of your next Core Skill by #, up to #",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -435,7 +435,7 @@
     "aspect": "calmBreeze",
     "class": "druid",
     "name": "Aspect of the Calm Breeze",
-    "text": "Lucky Hit: Wind Shear has up to a #.#% chance to fully restore your Spirit",
+    "text": "Lucky Hit: Wind Shear has up to a # chance to fully restore your Spirit",
     "type": "resource",
     "rarity": "legendary"
   },
@@ -443,7 +443,7 @@
     "aspect": "changelingDebt",
     "class": "druid",
     "name": "Aspect of the Changeling's Debt",
-    "text": "Damaging a Poisoned enemy with a Werebear Skill will instantly deal #.#% of the Poisoning damage and consume the Poisoning",
+    "text": "Damaging a Poisoned enemy with a Werebear Skill will instantly deal # of the Poisoning damage and consume the Poisoning",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -451,7 +451,7 @@
     "aspect": "charged",
     "class": "sorcerer",
     "name": "Charged Aspect",
-    "text": "Collecting Crackling Energy increases your Movement Speed by #.#% for 8 seconds",
+    "text": "Collecting Crackling Energy increases your Movement Speed by # for 8 seconds",
     "type": "mobility",
     "rarity": "legendary"
   },
@@ -459,7 +459,7 @@
     "aspect": "cheat",
     "class": "rogue",
     "name": "Cheat's Aspect",
-    "text": "You take #.#% less damage from Crowd Controlled enemies. Whenever a Crowd Controlled enemy deals direct damage to you, gain 15% Movement Speed for 2 seconds",
+    "text": "You take # less damage from Crowd Controlled enemies. Whenever a Crowd Controlled enemy deals direct damage to you, gain 15% Movement Speed for 2 seconds",
     "type": "defensive",
     "rarity": "legendary"
   },
@@ -475,7 +475,7 @@
     "aspect": "conceited",
     "class": "all",
     "name": "Conceited Aspect",
-    "text": "Deal #.#% increased damage while you have a Barrier active",
+    "text": "Deal # increased damage while you have a Barrier active",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -483,7 +483,7 @@
     "aspect": "concentration",
     "class": "sorcerer",
     "name": "Aspect of Concentration",
-    "text": "Your Mana Regeneration is increased by #.#% if you have not taken damage in the last 2 seconds",
+    "text": "Your Mana Regeneration is increased by # if you have not taken damage in the last 2 seconds",
     "type": "resource",
     "rarity": "legendary"
   },
@@ -491,7 +491,7 @@
     "aspect": "condemnation",
     "class": "rogue",
     "name": "Condemnation",
-    "text": "Your Core Skills deal #.#% increased damage when spending 3 Combo Points. Your Skills using this weapon have a 30% chance to generate 3 Combo Points",
+    "text": "Your Core Skills deal # increased damage when spending 3 Combo Points. Your Skills using this weapon have a 30% chance to generate 3 Combo Points",
     "type": "unique",
     "rarity": "unique"
   },
@@ -499,7 +499,7 @@
     "aspect": "conflagration",
     "class": "sorcerer",
     "name": "Aspect of Conflagration",
-    "text": "While channeling Incinerate, your Burning damage is increased by #.#%",
+    "text": "While channeling Incinerate, your Burning damage is increased by #",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -507,7 +507,7 @@
     "aspect": "control",
     "class": "sorcerer",
     "name": "Aspect of Control",
-    "text": "You deal #.#% more damage to Immobilized, Stunned, or Frozen enemies",
+    "text": "You deal # more damage to Immobilized, Stunned, or Frozen enemies",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -515,7 +515,7 @@
     "aspect": "corruption",
     "class": "rogue",
     "name": "Aspect of Corruption",
-    "text": "Your Imbuement Skill effects have #.#% increased potency against Vulnerable enemies",
+    "text": "Your Imbuement Skill effects have # increased potency against Vulnerable enemies",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -523,7 +523,7 @@
     "aspect": "cowlOfTheNameless",
     "class": "rogue",
     "name": "Cowl of the Nameless",
-    "text": "You gain #.#% increased Lucky Hit Chance against Crowd Controlled enemies",
+    "text": "You gain # increased Lucky Hit Chance against Crowd Controlled enemies",
     "type": "unique",
     "rarity": "unique"
   },
@@ -531,7 +531,7 @@
     "aspect": "crashstone",
     "class": "druid",
     "name": "Crashstone Aspect",
-    "text": "Earth Skills deal #.#% more Critical Strike Damage to Crowd Controlled enemies",
+    "text": "Earth Skills deal # more Critical Strike Damage to Crowd Controlled enemies",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -539,7 +539,7 @@
     "aspect": "craven",
     "class": "all",
     "name": "Craven Aspect",
-    "text": "You gain #.#% increased Movement Speed when moving away from Slowed or Chilled enemies",
+    "text": "You gain # increased Movement Speed when moving away from Slowed or Chilled enemies",
     "type": "mobility",
     "rarity": "legendary"
   },
@@ -571,7 +571,7 @@
     "aspect": "damned",
     "class": "necromancer",
     "name": "Aspect of the Damned",
-    "text": "You deal #.#% increased Shadow Damage to enemies afflicted by both Decrepify and Iron Maiden",
+    "text": "You deal # increased Shadow Damage to enemies afflicted by both Decrepify and Iron Maiden",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -611,7 +611,7 @@
     "aspect": "decay",
     "class": "necromancer",
     "name": "Aspect of Decay",
-    "text": "Each time the Shadowblight Key Passive deals damage to enemies, it increases the next Shadowblight's damage within 10 seconds by #.#%, stacking up to 5 times",
+    "text": "Each time the Shadowblight Key Passive deals damage to enemies, it increases the next Shadowblight's damage within 10 seconds by #, stacking up to 5 times",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -619,7 +619,7 @@
     "aspect": "deflectingBarrier",
     "class": "all",
     "name": "Aspect of the Deflecting Barrier",
-    "text": "While you have a Barrier active, there is a #.#% chance to ignore incoming direct damage from Distant enemies",
+    "text": "While you have a Barrier active, there is a # chance to ignore incoming direct damage from Distant enemies",
     "type": "defensive",
     "rarity": "legendary"
   },
@@ -635,7 +635,7 @@
     "aspect": "direWhirlwind",
     "class": "barbarian",
     "name": "Aspect of the Dire Whirlwind",
-    "text": "Whirlwind's Critical Strike Chance is increased by #.#% for each second it is channeled, up to #.#%",
+    "text": "Whirlwind's Critical Strike Chance is increased by # for each second it is channeled, up to #",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -643,7 +643,7 @@
     "aspect": "direWolf",
     "class": "druid",
     "name": "Dire Wolf's Aspect",
-    "text": "Grizzly Rage now Shapeshifts you into a Dire Werewolf. As a Dire Werewolf you gain #.#% Movement Speed instead of Damage Reduction and #.#% Spirit cost reduction bonus. In addition, kills Heal you for 10% of your Maximum Life",
+    "text": "Grizzly Rage now Shapeshifts you into a Dire Werewolf. As a Dire Werewolf you gain # Movement Speed instead of Damage Reduction and # Spirit cost reduction bonus. In addition, kills Heal you for 10% of your Maximum Life",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -651,7 +651,7 @@
     "aspect": "disobedience",
     "class": "all",
     "name": "Aspect of Disobedience",
-    "text": "You gain #.#% increased Armor for 4 seconds when you deal any form of damage, stacking up to #.#%",
+    "text": "You gain # increased Armor for 4 seconds when you deal any form of damage, stacking up to #",
     "type": "defensive",
     "rarity": "legendary"
   },
@@ -667,7 +667,7 @@
     "aspect": "doombringer",
     "class": "all",
     "name": "Doombringer",
-    "text": "Lucky Hit: Up to a #.#% chance to deal # Shadow damage to surrounding enemies and reduce their damage done by 20% for 5 seconds",
+    "text": "Lucky Hit: Up to a # chance to deal # Shadow damage to surrounding enemies and reduce their damage done by 20% for 5 seconds",
     "type": "unique",
     "rarity": "unique"
   },
@@ -683,7 +683,7 @@
     "aspect": "eaglehorn",
     "class": "rogue",
     "name": "Eaglehorn",
-    "text": "Penetrating Shot has a #.#% chance to fire an arrow that bounces off walls and scenery. Damaging 5 enemies with Penetrating Shot will cause your next cast to make enemies hit Vulnerable for 3 seconds",
+    "text": "Penetrating Shot has a # chance to fire an arrow that bounces off walls and scenery. Damaging 5 enemies with Penetrating Shot will cause your next cast to make enemies hit Vulnerable for 3 seconds",
     "type": "unique",
     "rarity": "unique"
   },
@@ -691,7 +691,7 @@
     "aspect": "earthguard",
     "class": "druid",
     "name": "Earthguard Aspect",
-    "text": "Gain #.#% bonus amount to your next Earthen Bulwark for each enemy you Crowd Control up to a maximum of 100%",
+    "text": "Gain # bonus amount to your next Earthen Bulwark for each enemy you Crowd Control up to a maximum of 100%",
     "type": "defensive",
     "rarity": "legendary"
   },
@@ -699,7 +699,7 @@
     "aspect": "earthquake",
     "class": "barbarian",
     "name": "Earthquake Aspect",
-    "text": "Ground Stomp creates an Earthquake damaging enemies for # Physical Damage over 4 seconds. While standing in Earthquake, you deal #.#% increased damage",
+    "text": "Ground Stomp creates an Earthquake damaging enemies for # Physical Damage over 4 seconds. While standing in Earthquake, you deal # increased damage",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -707,7 +707,7 @@
     "aspect": "earthstriker",
     "class": "barbarian",
     "name": "Earthstriker's Aspect",
-    "text": "After swapping weapons 8 times, your next Skill will Overpower and deal #.#% increased Overpower damage",
+    "text": "After swapping weapons 8 times, your next Skill will Overpower and deal # increased Overpower damage",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -723,7 +723,7 @@
     "aspect": "edgemaster",
     "class": "all",
     "name": "Edgemaster's Aspect",
-    "text": "Skills deal up to #.#% increased damage based on your available Primary Resource when cast, receiving the maximum benefit while you have full Primary Resource",
+    "text": "Skills deal up to # increased damage based on your available Primary Resource when cast, receiving the maximum benefit while you have full Primary Resource",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -731,7 +731,7 @@
     "aspect": "efficiency",
     "class": "sorcerer",
     "name": "Aspect of Efficiency",
-    "text": "Casting a Basic or Mastery Skill reduces the Mana cost of your next Core Skill by #.#%",
+    "text": "Casting a Basic or Mastery Skill reduces the Mana cost of your next Core Skill by #",
     "type": "resource",
     "rarity": "legendary"
   },
@@ -739,7 +739,7 @@
     "aspect": "elementalist",
     "class": "sorcerer",
     "name": "Elementalist's Aspect",
-    "text": "Core or Mastery Skills cast at or above 100 Mana gain a #.#% increased Critical Strike Chance",
+    "text": "Core or Mastery Skills cast at or above 100 Mana gain a # increased Critical Strike Chance",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -747,7 +747,7 @@
     "aspect": "elements",
     "class": "all",
     "name": "Aspect of Elements",
-    "text": "Gain #.#% increased damage to a set of damage types for 7 seconds. This effect alternates between 2 sets: • Fire, Lightning, and Physical. • Cold, Poison, and Shadow",
+    "text": "Gain # increased damage to a set of damage types for 7 seconds. This effect alternates between 2 sets: • Fire, Lightning, and Physical. • Cold, Poison, and Shadow",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -763,7 +763,7 @@
     "aspect": "elusiveMenace",
     "class": "rogue",
     "name": "Aspect of Elusive Menace",
-    "text": "While you have both bonuses from the Close Quarters Combat Key Passive active, your Dodge Chance increases by #.#% whenever you're hit by an enemy. Successfully Dodging resets this bonus",
+    "text": "While you have both bonuses from the Close Quarters Combat Key Passive active, your Dodge Chance increases by # whenever you're hit by an enemy. Successfully Dodging resets this bonus",
     "type": "defensive",
     "rarity": "legendary"
   },
@@ -771,7 +771,7 @@
     "aspect": "embalmer",
     "class": "necromancer",
     "name": "Aspect of the Embalmer",
-    "text": "Consuming a Corpse has a #.#% chance to spawn a Blood Orb",
+    "text": "Consuming a Corpse has a # chance to spawn a Blood Orb",
     "type": "defensive",
     "rarity": "legendary"
   },
@@ -779,7 +779,7 @@
     "aspect": "empoweringReaper",
     "class": "necromancer",
     "name": "Aspect of Empowering Reaper",
-    "text": "Damaging enemies with Sever has a #.#% chance to spawn a pool of Blight under the target that deals #.#% bonus damage. This effect can only happen once every 3 seconds",
+    "text": "Damaging enemies with Sever has a # chance to spawn a pool of Blight under the target that deals # bonus damage. This effect can only happen once every 3 seconds",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -787,7 +787,7 @@
     "aspect": "encased",
     "class": "sorcerer",
     "name": "Encased Aspect",
-    "text": "While Deep Freeze is active, you restore #.#% of your Maximum Life and Mana per second",
+    "text": "While Deep Freeze is active, you restore # of your Maximum Life and Mana per second",
     "type": "defensive",
     "rarity": "legendary"
   },
@@ -795,7 +795,7 @@
     "aspect": "encirclingBlades",
     "class": "rogue",
     "name": "Aspect of Encircling Blades",
-    "text": "Flurry damages enemies in a circle around you and deals #.#% increased damage",
+    "text": "Flurry damages enemies in a circle around you and deals # increased damage",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -803,7 +803,7 @@
     "aspect": "encroachingWrath",
     "class": "barbarian",
     "name": "Aspect of Encroaching Wrath",
-    "text": "After spending 100 Fury, your next Weapon Mastery Skills deals #.#% increased damage",
+    "text": "After spending 100 Fury, your next Weapon Mastery Skills deals # increased damage",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -819,7 +819,7 @@
     "aspect": "engulfingFlames",
     "class": "sorcerer",
     "name": "Aspect of Engulfing Flames",
-    "text": "You deal #.#% bonus Burning damage to enemies who are below 50% of their total Life. While enemies are affected by more Damage Over Time than their total Life, you deal #.#% increased Burning damage to them",
+    "text": "You deal # bonus Burning damage to enemies who are below 50% of their total Life. While enemies are affected by more Damage Over Time than their total Life, you deal # increased Burning damage to them",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -827,7 +827,7 @@
     "aspect": "enshrouding",
     "class": "rogue",
     "name": "Enshrouding Aspect",
-    "text": "Gain a free Dark Shroud shadow every 3 seconds when standing still. Each Dark Shroud shadow grants #.#% increased Damage Reduction",
+    "text": "Gain a free Dark Shroud shadow every 3 seconds when standing still. Each Dark Shroud shadow grants # increased Damage Reduction",
     "type": "defensive",
     "rarity": "legendary"
   },
@@ -851,7 +851,7 @@
     "aspect": "esusHeirloom",
     "class": "sorcerer",
     "name": "Esu's Heirloom",
-    "text": "Your Critical Strike Chance is increased by #.#% of your Movement Speed bonus",
+    "text": "Your Critical Strike Chance is increased by # of your Movement Speed bonus",
     "type": "unique",
     "rarity": "unique"
   },
@@ -859,7 +859,7 @@
     "aspect": "everliving",
     "class": "sorcerer",
     "name": "Everliving Aspect",
-    "text": "You take #.#% less damage from Crowd Controlled or Vulnerable enemies",
+    "text": "You take # less damage from Crowd Controlled or Vulnerable enemies",
     "type": "defensive",
     "rarity": "legendary"
   },
@@ -867,7 +867,7 @@
     "aspect": "expectant",
     "class": "all",
     "name": "Aspect of the Expectant",
-    "text": "Attacking enemies with a Basic Skill increases the damage of your next Core Skill cast by #.#%, up to 30%",
+    "text": "Attacking enemies with a Basic Skill increases the damage of your next Core Skill cast by #, up to 30%",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -875,7 +875,7 @@
     "aspect": "exploiter",
     "class": "all",
     "name": "Exploiter's Aspect",
-    "text": "You have 20% increased Crowd Control Duration. While enemies are Unstoppable, you deal #.#% increased damage to them",
+    "text": "You have 20% increased Crowd Control Duration. While enemies are Unstoppable, you deal # increased damage to them",
     "type": "utility",
     "rarity": "legendary"
   },
@@ -891,7 +891,7 @@
     "aspect": "explosiveVerve",
     "class": "rogue",
     "name": "Aspect of Explosive Verve",
-    "text": "Your Grenade Skills count as Trap Skills. Whenever you arm a Trap or drop Grenades, you gain #.#% increased Movement speed for 3 seconds",
+    "text": "Your Grenade Skills count as Trap Skills. Whenever you arm a Trap or drop Grenades, you gain # increased Movement speed for 3 seconds",
     "type": "utility",
     "rarity": "legendary"
   },
@@ -907,7 +907,7 @@
     "aspect": "eyesInTheDark",
     "class": "rogue",
     "name": "Eyes in the Dark",
-    "text": "Unless it hits a Boss or Player, Death Trap will continue to re-arm itself until it kills an enemy. Death Trap's is increased by #.#%, however the Cooldown is increased by #.#%",
+    "text": "Unless it hits a Boss or Player, Death Trap will continue to re-arm itself until it kills an enemy. Death Trap's is increased by #, however the Cooldown is increased by #",
     "type": "unique",
     "rarity": "unique"
   },
@@ -931,7 +931,7 @@
     "aspect": "fistsOfFate",
     "class": "all",
     "name": "Fists of Fate",
-    "text": "Your attacks randomly deal 1% to #.#% of their normal damage",
+    "text": "Your attacks randomly deal 1% to # of their normal damage",
     "type": "unique",
     "rarity": "unique"
   },
@@ -947,7 +947,7 @@
     "aspect": "flamewalker",
     "class": "sorcerer",
     "name": "Flamewalker's Aspect",
-    "text": "Coming in contact with your Firewall grants you #.#% Movement Speed for 6 seconds",
+    "text": "Coming in contact with your Firewall grants you # Movement Speed for 6 seconds",
     "type": "mobility",
     "rarity": "legendary"
   },
@@ -979,7 +979,7 @@
     "aspect": "fortune",
     "class": "sorcerer",
     "name": "Aspect of Fortune",
-    "text": "Your Lucky Hit Chance is increased by #.#% while you have a Barrier active",
+    "text": "Your Lucky Hit Chance is increased by # while you have a Barrier active",
     "type": "utility",
     "rarity": "legendary"
   },
@@ -987,7 +987,7 @@
     "aspect": "frenziedDead",
     "class": "necromancer",
     "name": "Aspect of Frenzied Dead",
-    "text": "Each time one of your Summoning Minions damages an enemy, they gain #.#% Attack Speed for 3 seconds, up to #.#%",
+    "text": "Each time one of your Summoning Minions damages an enemy, they gain # Attack Speed for 3 seconds, up to #",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -995,7 +995,7 @@
     "aspect": "frostbitten",
     "class": "rogue",
     "name": "Frostbitten Aspect",
-    "text": "Chilled enemies hit by your Grenade Skills have a chance equal to double your Critical Strike Chance to be instantly Frozen for 2 seconds. You deal #.#% increased Critical Strike Damage against Frozen enemies",
+    "text": "Chilled enemies hit by your Grenade Skills have a chance equal to double your Critical Strike Chance to be instantly Frozen for 2 seconds. You deal # increased Critical Strike Damage against Frozen enemies",
     "type": "utility",
     "rarity": "legendary"
   },
@@ -1003,7 +1003,7 @@
     "aspect": "frostblitz",
     "class": "sorcerer",
     "name": "Frostblitz Aspect",
-    "text": "Frost Nova gains an additional Charge but the Cooldown per Charge is increased by #.#%",
+    "text": "Frost Nova gains an additional Charge but the Cooldown per Charge is increased by #",
     "type": "defensive",
     "rarity": "legendary"
   },
@@ -1011,7 +1011,7 @@
     "aspect": "frostburn",
     "class": "all",
     "name": "Frostburn",
-    "text": "Lucky Hit: Up to a #.#% chance to Freeze enemies for 2 seconds",
+    "text": "Lucky Hit: Up to a # chance to Freeze enemies for 2 seconds",
     "type": "unique",
     "rarity": "unique"
   },
@@ -1027,7 +1027,7 @@
     "aspect": "frozenOrbit",
     "class": "sorcerer",
     "name": "Aspect of Frozen Orbit",
-    "text": "Frozen Orb stays in place after reaching its destination and explodes 2 additional times for #.#% of its damage",
+    "text": "Frozen Orb stays in place after reaching its destination and explodes 2 additional times for # of its damage",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -1035,7 +1035,7 @@
     "aspect": "frozenTundra",
     "class": "sorcerer",
     "name": "Aspect of the Frozen Tundra",
-    "text": "While Deep Freeze is active, exploding Ice Spikes form in the area, dealing # Cold Damage. Your Ice Spikes have #.#% increased explosion radius",
+    "text": "While Deep Freeze is active, exploding Ice Spikes form in the area, dealing # Cold Damage. Your Ice Spikes have # increased explosion radius",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -1051,7 +1051,7 @@
     "aspect": "ghostwalker",
     "class": "all",
     "name": "Ghostwalker Aspect",
-    "text": "While Unstoppable and for 4 seconds after, you gain #.#% increased Movement Speed and can move freely through enemies",
+    "text": "While Unstoppable and for 4 seconds after, you gain # increased Movement Speed and can move freely through enemies",
     "type": "mobility",
     "rarity": "legendary"
   },
@@ -1075,7 +1075,7 @@
     "aspect": "glovesOfTheIlluminator",
     "class": "sorcerer",
     "name": "Gloves of the Illuminator",
-    "text": "Fireball now bounces as it travels, exploding each time it hits the ground, but it's explosion deals #.#% less damage",
+    "text": "Fireball now bounces as it travels, exploding each time it hits the ground, but it's explosion deals # less damage",
     "type": "unique",
     "rarity": "unique"
   },
@@ -1083,7 +1083,7 @@
     "aspect": "godslayerCrown",
     "class": "all",
     "name": "Godslayer Crown",
-    "text": "When you Stun, Freeze, or Immobilize an Elite enemy, or damage a Boss, it pulls in nearby enemies. You deal #.#% increased damage to them for 3 seconds. This effect can only occur once every 12 seconds",
+    "text": "When you Stun, Freeze, or Immobilize an Elite enemy, or damage a Boss, it pulls in nearby enemies. You deal # increased damage to them for 3 seconds. This effect can only occur once every 12 seconds",
     "type": "unique",
     "rarity": "unique"
   },
@@ -1091,7 +1091,7 @@
     "aspect": "gohrsDevastatingGrips",
     "class": "barbarian",
     "name": "Gohr's Devastating Grips",
-    "text": "Whirlwind explodes every 2 seconds and after it ends, dealing #.#% of the total Base damage dealt to surrounding enemies as Fire damage",
+    "text": "Whirlwind explodes every 2 seconds and after it ends, dealing # of the total Base damage dealt to surrounding enemies as Fire damage",
     "type": "unique",
     "rarity": "unique"
   },
@@ -1099,7 +1099,7 @@
     "aspect": "goreQuills",
     "class": "necromancer",
     "name": "Gore Quills Aspect",
-    "text": "Blood Lance will consume Blood Orbs to also conjure lances from them. Each additional Blood Lance deals #.#% of normal damage and prioritizes targeting un-lanced enemies",
+    "text": "Blood Lance will consume Blood Orbs to also conjure lances from them. Each additional Blood Lance deals # of normal damage and prioritizes targeting un-lanced enemies",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -1107,7 +1107,7 @@
     "aspect": "graspingVeins",
     "class": "necromancer",
     "name": "Aspect of Grasping Veins",
-    "text": "Gain #.#% increased Critical Strike Chance for 6 seconds when you cast Corpse Tendrils. You deal #.#% bonus Critical Strike Damage to enemies damaged by Corpse Tendrils",
+    "text": "Gain # increased Critical Strike Chance for 6 seconds when you cast Corpse Tendrils. You deal # bonus Critical Strike Damage to enemies damaged by Corpse Tendrils",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -1123,7 +1123,7 @@
     "aspect": "graspOfShadow",
     "class": "rogue",
     "name": "Grasp of Shadow",
-    "text": "Lucky Hit: Damaging a Vulnerable enemy with a Marksman or Cutthroat Skill has up to a #.#% chance to summon a Shadow Clone that mimics your attack",
+    "text": "Lucky Hit: Damaging a Vulnerable enemy with a Marksman or Cutthroat Skill has up to a # chance to summon a Shadow Clone that mimics your attack",
     "type": "unique",
     "rarity": "unique"
   },
@@ -1131,7 +1131,7 @@
     "aspect": "gravitational",
     "class": "sorcerer",
     "name": "Gravitational Aspect",
-    "text": "Ball Lightning orbits around you and deals #.#% increased damage",
+    "text": "Ball Lightning orbits around you and deals # increased damage",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -1139,7 +1139,7 @@
     "aspect": "greatstaffOfTheCrone",
     "class": "druid",
     "name": "Greatstaff of the Crone",
-    "text": "Claw is now a Storm Skill and also casts Storm Strike at #.#% normal damage",
+    "text": "Claw is now a Storm Skill and also casts Storm Strike at # normal damage",
     "type": "unique",
     "rarity": "unique"
   },
@@ -1155,7 +1155,7 @@
     "aspect": "hardenedBones",
     "class": "necromancer",
     "name": "Aspect of Hardened Bones",
-    "text": "Your Minions gain #.#% increased Damage Reduction",
+    "text": "Your Minions gain # increased Damage Reduction",
     "type": "defensive",
     "rarity": "legendary"
   },
@@ -1163,7 +1163,7 @@
     "aspect": "harlequinCrest",
     "class": "all",
     "name": "Harlequin Crest",
-    "text": "Gain #.#% Damage Reduction. In addition, gain 4 Ranks to all Skills",
+    "text": "Gain # Damage Reduction. In addition, gain 4 Ranks to all Skills",
     "type": "unique",
     "rarity": "unique"
   },
@@ -1179,7 +1179,7 @@
     "aspect": "howlFromBelow",
     "class": "necromancer",
     "name": "Howl from Below",
-    "text": "Instead of detonating immediately, Corpse Explosion summons a Volatile Skeleton that charges at a random enemy and explodes. Corpse Explosion's damage is increased by #.#%",
+    "text": "Instead of detonating immediately, Corpse Explosion summons a Volatile Skeleton that charges at a random enemy and explodes. Corpse Explosion's damage is increased by #",
     "type": "unique",
     "rarity": "unique"
   },
@@ -1187,7 +1187,7 @@
     "aspect": "hulking",
     "class": "necromancer",
     "name": "Hulking Aspect",
-    "text": "Your Golem has a #.#% chance to reduce its active Cooldown by 2 seconds and a #.#% chance to spawn a Corpse each time it damages an enemy with its normal attack",
+    "text": "Your Golem has a # chance to reduce its active Cooldown by 2 seconds and a # chance to spawn a Corpse each time it damages an enemy with its normal attack",
     "type": "utility",
     "rarity": "legendary"
   },
@@ -1195,7 +1195,7 @@
     "aspect": "hungryBlood",
     "class": "necromancer",
     "name": "Aspect of Hungry Blood",
-    "text": "Each cast of Blood Lance will launch an additional Blood Lance at a Nearby enemy when it first hits an enemy that is already lanced, dealing #.#% of normal damage",
+    "text": "Each cast of Blood Lance will launch an additional Blood Lance at a Nearby enemy when it first hits an enemy that is already lanced, dealing # of normal damage",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -1211,7 +1211,7 @@
     "aspect": "iceheartBrais",
     "class": "sorcerer",
     "name": "Iceheart Brais",
-    "text": "Enemies that die while Frozen, have a #.#% chance to unleash a Frost Nova",
+    "text": "Enemies that die while Frozen, have a # chance to unleash a Frost Nova",
     "type": "unique",
     "rarity": "unique"
   },
@@ -1227,7 +1227,7 @@
     "aspect": "imitatedImbuement",
     "class": "rogue",
     "name": "Aspect of Imitated Imbuement",
-    "text": "Your Shadow Clones also mimic the Imbuements applied to your Skills. Casting an Imbuement Skill grants your active Shadow Clone #.#% increased damage for 9 seconds",
+    "text": "Your Shadow Clones also mimic the Imbuements applied to your Skills. Casting an Imbuement Skill grants your active Shadow Clone # increased damage for 9 seconds",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -1235,7 +1235,7 @@
     "aspect": "incendiary",
     "class": "sorcerer",
     "name": "Incendiary Aspect",
-    "text": "Lucky Hit: Damage from your Pyromancy skills has up to a #.#% chance to restore 10 Mana",
+    "text": "Lucky Hit: Damage from your Pyromancy skills has up to a # chance to restore 10 Mana",
     "type": "resource",
     "rarity": "legendary"
   },
@@ -1251,7 +1251,7 @@
     "aspect": "innerCalm",
     "class": "all",
     "name": "Aspect of Inner Calm",
-    "text": "Deal #.#% increased damage for each second you stand still, up to 30%",
+    "text": "Deal # increased damage for each second you stand still, up to 30%",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -1267,7 +1267,7 @@
     "aspect": "ironBlood",
     "class": "barbarian",
     "name": "Iron Blood Aspect",
-    "text": "Gain #.#% Damage Reduction for each Nearby Bleeding enemy up to #.#% maximum",
+    "text": "Gain # Damage Reduction for each Nearby Bleeding enemy up to # maximum",
     "type": "defensive",
     "rarity": "legendary"
   },
@@ -1275,7 +1275,7 @@
     "aspect": "ironWarrior",
     "class": "barbarian",
     "name": "Aspect of the Iron Warrior",
-    "text": "Iron Skin grants Unstoppable, and #.#% Damage Reduction",
+    "text": "Iron Skin grants Unstoppable, and # Damage Reduction",
     "type": "defensive",
     "rarity": "legendary"
   },
@@ -1283,7 +1283,7 @@
     "aspect": "lethalDusk",
     "class": "rogue",
     "name": "Aspect of Lethal Dusk",
-    "text": "Evading through an enemy infected by your Shadow Imbuement grants Stealth for 4 seconds. Breaking Stealth with an attack grants you #.#% Maximum Life on Kill for 6 seconds",
+    "text": "Evading through an enemy infected by your Shadow Imbuement grants Stealth for 4 seconds. Breaking Stealth with an attack grants you # Maximum Life on Kill for 6 seconds",
     "type": "defensive",
     "rarity": "legendary"
   },
@@ -1291,7 +1291,7 @@
     "aspect": "lidlessWall",
     "class": "necromancer",
     "name": "Lidless Wall",
-    "text": "Lucky Hit: While you have an active Bone Storm, hitting an enemy outside of a Bone Storm has up to a #.#% chance to spawn an additional Bone Storm at their location. Each of your active Sacrifice bonuses increases the chance by 25% and the total number of additional Bone Storms you can have by 1",
+    "text": "Lucky Hit: While you have an active Bone Storm, hitting an enemy outside of a Bone Storm has up to a # chance to spawn an additional Bone Storm at their location. Each of your active Sacrifice bonuses increases the chance by 25% and the total number of additional Bone Storms you can have by 1",
     "type": "unique",
     "rarity": "unique"
   },
@@ -1307,7 +1307,7 @@
     "aspect": "limitlessRage",
     "class": "barbarian",
     "name": "Aspect of Limitless Rage",
-    "text": "Each point of Fury you generate while at Maximum Fury grants your next Core Skill #.#% increased damage, up to #.#%",
+    "text": "Each point of Fury you generate while at Maximum Fury grants your next Core Skill # increased damage, up to #",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -1315,7 +1315,7 @@
     "aspect": "longShadow",
     "class": "necromancer",
     "name": "Aspect of the Long Shadow",
-    "text": "Lucky Hit: Your Shadow Damage Over Time effects have a #.#% chance to generate 3 Essence. Damage from your Shadowblight Key Passive will always generate 2 Essence",
+    "text": "Lucky Hit: Your Shadow Damage Over Time effects have a # chance to generate 3 Essence. Damage from your Shadowblight Key Passive will always generate 2 Essence",
     "type": "resource",
     "rarity": "legendary"
   },
@@ -1323,7 +1323,7 @@
     "aspect": "luckbringer",
     "class": "barbarian",
     "name": "Luckbringer Aspect",
-    "text": "Gain #.#% increased Lucky Hit Chance while all damage bonuses from the Walking Arsenal Key Passive are active",
+    "text": "Gain # increased Lucky Hit Chance while all damage bonuses from the Walking Arsenal Key Passive are active",
     "type": "utility",
     "rarity": "legendary"
   },
@@ -1339,7 +1339,7 @@
     "aspect": "mageLord",
     "class": "sorcerer",
     "name": "Mage-Lord's Aspect",
-    "text": "The Vyr's Mastery Key Passive also grants #.#% Damage Reduction for each Close enemy, up to #.#%",
+    "text": "The Vyr's Mastery Key Passive also grants # Damage Reduction for each Close enemy, up to #",
     "type": "defensive",
     "rarity": "legendary"
   },
@@ -1347,7 +1347,7 @@
     "aspect": "mangled",
     "class": "druid",
     "name": "Mangled Aspect",
-    "text": "When you are struck as a Werebear you have a #.#% chance to gain 3 Spirit",
+    "text": "When you are struck as a Werebear you have a # chance to gain 3 Spirit",
     "type": "resource",
     "rarity": "legendary"
   },
@@ -1355,7 +1355,7 @@
     "aspect": "mangler",
     "class": "rogue",
     "name": "Mangler's Aspect",
-    "text": "Lucky Hit: Dealing direct damage to a Vulnerable enemy has up to a #.#% chance to Daze them for 2 seconds",
+    "text": "Lucky Hit: Dealing direct damage to a Vulnerable enemy has up to a # chance to Daze them for 2 seconds",
     "type": "utility",
     "rarity": "legendary"
   },
@@ -1379,7 +1379,7 @@
     "aspect": "metamorphicStone",
     "class": "druid",
     "name": "Aspect of Metamorphic Stone",
-    "text": "Boulder is now a Core Skill and costs 50 Spirit to cast dealing #.#% of normal damage",
+    "text": "Boulder is now a Core Skill and costs 50 Spirit to cast dealing # of normal damage",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -1403,7 +1403,7 @@
     "aspect": "mothersEmbrace",
     "class": "all",
     "name": "Mother's Embrace",
-    "text": "If a Core Skill hits 4 or more enemies, #.#% of the Resource is refunded",
+    "text": "If a Core Skill hits 4 or more enemies, # of the Resource is refunded",
     "type": "unique",
     "rarity": "unique"
   },
@@ -1411,7 +1411,7 @@
     "aspect": "naturalBalance",
     "class": "druid",
     "name": "Aspect of Natural Balance",
-    "text": "Casting a Storm Skill grants your Earth Skills #.#% Critical Strike Damage for 4 seconds. Casting an Earth Skill increases the Critical Strike Chance of Storm Skills by #.#% for 4 seconds",
+    "text": "Casting a Storm Skill grants your Earth Skills # Critical Strike Damage for 4 seconds. Casting an Earth Skill increases the Critical Strike Chance of Storm Skills by # for 4 seconds",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -1427,7 +1427,7 @@
     "aspect": "needleflare",
     "class": "all",
     "name": "Needleflare Aspect",
-    "text": "Thorns damage dealt has a #.#% chance to deal damage to all enemies around you",
+    "text": "Thorns damage dealt has a # chance to deal damage to all enemies around you",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -1435,7 +1435,7 @@
     "aspect": "nighthowler",
     "class": "druid",
     "name": "Nighthowler's Aspect",
-    "text": "Blood Howl increases Critical Strike Chance by #.#%. In addition, Blood Howl also affects Nearby Companions and Players for 3 seconds",
+    "text": "Blood Howl increases Critical Strike Chance by #. In addition, Blood Howl also affects Nearby Companions and Players for 3 seconds",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -1443,7 +1443,7 @@
     "aspect": "noxiousIce",
     "class": "rogue",
     "name": "Aspect of Noxious Ice",
-    "text": "Chilled enemies Poisoned by Poison Imbuement will be further Chilled for 20% per second. You deal #.#% additional Poison damage to Frozen enemies",
+    "text": "Chilled enemies Poisoned by Poison Imbuement will be further Chilled for 20% per second. You deal # additional Poison damage to Frozen enemies",
     "type": "utility",
     "rarity": "legendary"
   },
@@ -1483,7 +1483,7 @@
     "aspect": "overcharged",
     "class": "druid",
     "name": "Overcharged Aspect",
-    "text": "Lucky Hit: Up to a #.#% chance when dealing Lightning damage to overload the target for 3 seconds, causing any direct damage you deal to them to pulse # additional damage to surrounding enemies",
+    "text": "Lucky Hit: Up to a # chance when dealing Lightning damage to overload the target for 3 seconds, causing any direct damage you deal to them to pulse # additional damage to surrounding enemies",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -1491,7 +1491,7 @@
     "aspect": "overkill",
     "class": "barbarian",
     "name": "Overkill",
-    "text": "Death Blow creates a shockwave, dealing #.#% of its Base damage to enemies. Enemies who die to this effect also reset Death Blow's Cooldown",
+    "text": "Death Blow creates a shockwave, dealing # of its Base damage to enemies. Enemies who die to this effect also reset Death Blow's Cooldown",
     "type": "unique",
     "rarity": "unique"
   },
@@ -1499,7 +1499,7 @@
     "aspect": "overwhelmingCurrents",
     "class": "sorcerer",
     "name": "Aspect of Overwhelming Currents",
-    "text": "Currents has a #.#% chance to cast an additional Shock Skill",
+    "text": "Currents has a # chance to cast an additional Shock Skill",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -1507,7 +1507,7 @@
     "aspect": "penitentGreaves",
     "class": "all",
     "name": "Penitent Greaves",
-    "text": "You leave behind a trail of frost that Chills enemies. You deal #.#% more damage to Chilled enemies",
+    "text": "You leave behind a trail of frost that Chills enemies. You deal # more damage to Chilled enemies",
     "type": "unique",
     "rarity": "unique"
   },
@@ -1523,7 +1523,7 @@
     "aspect": "pestilentPoints",
     "class": "rogue",
     "name": "Aspect of Pestilent Points",
-    "text": "Every third cast of Puncture is Poison Imbued with #.#% of normal potency",
+    "text": "Every third cast of Puncture is Poison Imbued with # of normal potency",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -1531,7 +1531,7 @@
     "aspect": "piercingCold",
     "class": "sorcerer",
     "name": "Aspect of Piercing Cold",
-    "text": "Ice Shards pierce # times, dealing #.#% less damage per subsequent enemy hit",
+    "text": "Ice Shards pierce # times, dealing # less damage per subsequent enemy hit",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -1539,7 +1539,7 @@
     "aspect": "piercingStatic",
     "class": "sorcerer",
     "name": "Aspect of Piercing Static",
-    "text": "Charged Bolts pierce, but deal #.#% less damage to targets hit after the first",
+    "text": "Charged Bolts pierce, but deal # less damage to targets hit after the first",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -1547,7 +1547,7 @@
     "aspect": "plungingDarkness",
     "class": "necromancer",
     "name": "Aspect of Plunging Darkness",
-    "text": "Bone Prison spawns a pool of Blight that deals #.#% bonus damage over 6 seconds",
+    "text": "Bone Prison spawns a pool of Blight that deals # bonus damage over 6 seconds",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -1595,7 +1595,7 @@
     "aspect": "quicksand",
     "class": "druid",
     "name": "Aspect of Quicksand",
-    "text": "Damage from Earth Skills Slow enemies hit by #.#% for 5 seconds",
+    "text": "Damage from Earth Skills Slow enemies hit by # for 5 seconds",
     "type": "utility",
     "rarity": "legendary"
   },
@@ -1603,7 +1603,7 @@
     "aspect": "rageOfHarrogath",
     "class": "barbarian",
     "name": "Rage of Harrogath",
-    "text": "Lucky Hit: Up to a #.#% chance to reduce the Cooldowns of your Non-Ultimate Skills by 1.5 seconds when you inflict Bleeding on Elites",
+    "text": "Lucky Hit: Up to a # chance to reduce the Cooldowns of your Non-Ultimate Skills by 1.5 seconds when you inflict Bleeding on Elites",
     "type": "unique",
     "rarity": "unique"
   },
@@ -1619,7 +1619,7 @@
     "aspect": "ramaladnisMagnumOpus",
     "class": "barbarian",
     "name": "Ramaladni's Magnum Opus",
-    "text": "Skills using this weapon deal #.#% increased damage per point of Fury you have, but you lose 2 Fury every second",
+    "text": "Skills using this weapon deal # increased damage per point of Fury you have, but you lose 2 Fury every second",
     "type": "unique",
     "rarity": "unique"
   },
@@ -1635,7 +1635,7 @@
     "aspect": "rapid",
     "class": "all",
     "name": "Rapid Aspect",
-    "text": "Basic Skills gain #.#% Attack Speed",
+    "text": "Basic Skills gain # Attack Speed",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -1643,7 +1643,7 @@
     "aspect": "rathmaChosen",
     "class": "necromancer",
     "name": "Aspect of Rathma's Chosen",
-    "text": "Whenever your Blood Skills Overpower you gain #.#% Attack Speed for 4 seconds",
+    "text": "Whenever your Blood Skills Overpower you gain # Attack Speed for 4 seconds",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -1651,7 +1651,7 @@
     "aspect": "ravager",
     "class": "rogue",
     "name": "Ravager's Aspect",
-    "text": "Shadow Step has an additional Charge. Killing an enemy with Shadow Step refunds a Charge and increases the damage of Shadow Step by #.#% for 2 seconds, up to #.#%",
+    "text": "Shadow Step has an additional Charge. Killing an enemy with Shadow Step refunds a Charge and increases the damage of Shadow Step by # for 2 seconds, up to #",
     "type": "mobility",
     "rarity": "legendary"
   },
@@ -1659,7 +1659,7 @@
     "aspect": "ravenous",
     "class": "rogue",
     "name": "Ravenous Aspect",
-    "text": "Killing a Vulnerable enemy grants you #.#% increased Energy Regeneration for 4 seconds",
+    "text": "Killing a Vulnerable enemy grants you # increased Energy Regeneration for 4 seconds",
     "type": "resource",
     "rarity": "legendary"
   },
@@ -1667,7 +1667,7 @@
     "aspect": "rawMight",
     "class": "druid",
     "name": "Raw Might Aspect",
-    "text": "After you hit 15 enemies with your Werebear Skills, your next Werebear Skill will deal #.#% more damage and Stun enemies for 2 seconds",
+    "text": "After you hit 15 enemies with your Werebear Skills, your next Werebear Skill will deal # more damage and Stun enemies for 2 seconds",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -1683,7 +1683,7 @@
     "aspect": "reanimation",
     "class": "necromancer",
     "name": "Aspect of Reanimation",
-    "text": "Your Minions gain increased damage while alive, up to #.#% after 10 seconds",
+    "text": "Your Minions gain increased damage while alive, up to # after 10 seconds",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -1699,7 +1699,7 @@
     "aspect": "relentlessArmsmaster",
     "class": "barbarian",
     "name": "Aspect of the Relentless Armsmaster",
-    "text": "Gain #.#% increased Fury Generation while all damage bonuses from the Walking Arsenal Key Passive are active",
+    "text": "Gain # increased Fury Generation while all damage bonuses from the Walking Arsenal Key Passive are active",
     "type": "resource",
     "rarity": "legendary"
   },
@@ -1707,7 +1707,7 @@
     "aspect": "relentlessBerserker",
     "class": "barbarian",
     "name": "Relentless Berserker's Aspect",
-    "text": "Lucky Hit: Damaging an enemy with a Core Skill has up to a #.#% chance to extend the duration of Berserking by 2 second. Double this duration if it was a Critical Strike",
+    "text": "Lucky Hit: Damaging an enemy with a Core Skill has up to a # chance to extend the duration of Berserking by 2 second. Double this duration if it was a Critical Strike",
     "type": "utility",
     "rarity": "legendary"
   },
@@ -1715,7 +1715,7 @@
     "aspect": "repeating",
     "class": "rogue",
     "name": "Aspect of Repeating",
-    "text": "Rapid Fire has a #.#% chance to ricochet to another target",
+    "text": "Rapid Fire has a # chance to ricochet to another target",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -1731,7 +1731,7 @@
     "aspect": "retaliation",
     "class": "druid",
     "name": "Aspect of Retaliation",
-    "text": "Your Core Skills deal up to #.#% increased damage based on your amount of Fortify",
+    "text": "Your Core Skills deal up to # increased damage based on your amount of Fortify",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -1739,7 +1739,7 @@
     "aspect": "retribution",
     "class": "all",
     "name": "Aspect of Retribution",
-    "text": "Distant enemies have a 8% chance to be Stunned for 2 seconds when they hit you. You deal #.#% increased damage to Stunned enemies",
+    "text": "Distant enemies have a 8% chance to be Stunned for 2 seconds when they hit you. You deal # increased damage to Stunned enemies",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -1755,7 +1755,7 @@
     "aspect": "ringOfRedFuror",
     "class": "barbarian",
     "name": "Ring of Red Furor",
-    "text": "After spending 100 Fury within 3 seconds, your next cast of Hammer of the Ancients, Upheaval, or Death Blow is a guaranteed Critical Strike and deals #.#% bonus Critical Strike Damage",
+    "text": "After spending 100 Fury within 3 seconds, your next cast of Hammer of the Ancients, Upheaval, or Death Blow is a guaranteed Critical Strike and deals # bonus Critical Strike Damage",
     "type": "unique",
     "rarity": "unique"
   },
@@ -1763,7 +1763,7 @@
     "aspect": "ringOfStarlessSkies",
     "class": "all",
     "name": "Ring of Starless Skies",
-    "text": "Each consecutive Core Skill cast reduces the Resource cost of your next Core Skill by #.#% up to a maximum of 40%",
+    "text": "Each consecutive Core Skill cast reduces the Resource cost of your next Core Skill by # up to a maximum of 40%",
     "type": "unique",
     "rarity": "unique"
   },
@@ -1779,7 +1779,7 @@
     "aspect": "rotting",
     "class": "necromancer",
     "name": "Rotting Aspect",
-    "text": "Decompose can chain up to 2 additional targets. When Decompose spawns a Corpse, it has a #.#% chance to spawn a Corpse under all afflicted targets",
+    "text": "Decompose can chain up to 2 additional targets. When Decompose spawns a Corpse, it has a # chance to spawn a Corpse under all afflicted targets",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -1795,7 +1795,7 @@
     "aspect": "sacrificial",
     "class": "necromancer",
     "name": "Sacrificial Aspect",
-    "text": "Your Sacrifice bonuses are increased by #.#%",
+    "text": "Your Sacrifice bonuses are increased by #",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -1803,7 +1803,7 @@
     "aspect": "scoundrelsLeathers",
     "class": "rogue",
     "name": "Scoundrel's Leathers",
-    "text": "While you have unlimited Energy from Inner Sight, your Core Skills have a #.#% chance to spawn Caltrops, Poison Trap, or Death Trap",
+    "text": "While you have unlimited Energy from Inner Sight, your Core Skills have a # chance to spawn Caltrops, Poison Trap, or Death Trap",
     "type": "unique",
     "rarity": "unique"
   },
@@ -1827,7 +1827,7 @@
     "aspect": "serpentine",
     "class": "sorcerer",
     "name": "Serpentine Aspect",
-    "text": "You may have 1 additional Hydra active, and Hydra's duration is increased by #.#%",
+    "text": "You may have 1 additional Hydra active, and Hydra's duration is increased by #",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -1835,7 +1835,7 @@
     "aspect": "serration",
     "class": "necromancer",
     "name": "Aspect of Serration",
-    "text": "The Ossified Essence Key Passive also increases the Critical Strike Damage of your Bone Skills by 1% per Essence, up to #.#%",
+    "text": "The Ossified Essence Key Passive also increases the Critical Strike Damage of your Bone Skills by 1% per Essence, up to #",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -1843,7 +1843,7 @@
     "aspect": "shadowslicer",
     "class": "rogue",
     "name": "Shadowslicer Aspect",
-    "text": "When you cast Dash, a Shadow Clone is spawned at your location that also casts Dash, dealing #.#% of the Base damage",
+    "text": "When you cast Dash, a Shadow Clone is spawned at your location that also casts Dash, dealing # of the Base damage",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -1851,7 +1851,7 @@
     "aspect": "shardOfDawn",
     "class": "all",
     "name": "Shard of Dawn Aspect",
-    "text": "After 30 seconds of Night's Grasp, gain Dawn's Haste, increasing your Attack Speed by #.#% and Movement Speed by 20% for 12 seconds. While empowered by the Midwinter Ward, killing an enemy reduces Night's Grasp's duration by 1 second",
+    "text": "After 30 seconds of Night's Grasp, gain Dawn's Haste, increasing your Attack Speed by # and Movement Speed by 20% for 12 seconds. While empowered by the Midwinter Ward, killing an enemy reduces Night's Grasp's duration by 1 second",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -1859,7 +1859,7 @@
     "aspect": "sharedMisery",
     "class": "all",
     "name": "Aspect of Shared Misery",
-    "text": "Lucky Hit: When you hit a Crowd Controlled enemy, there is up to a #.#% chance for that Crowd Control effect to spread to another unaffected enemy",
+    "text": "Lucky Hit: When you hit a Crowd Controlled enemy, there is up to a # chance for that Crowd Control effect to spread to another unaffected enemy",
     "type": "utility",
     "rarity": "legendary"
   },
@@ -1867,7 +1867,7 @@
     "aspect": "shattered",
     "class": "sorcerer",
     "name": "Shattered Aspect",
-    "text": "Explosions from the Shatter Key Passive deal #.#% increased damage if enemies die while Frozen",
+    "text": "Explosions from the Shatter Key Passive deal # increased damage if enemies die while Frozen",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -1883,7 +1883,7 @@
     "aspect": "shepherd",
     "class": "druid",
     "name": "Shepherd's Aspect",
-    "text": "Core Skills deal an additional #.#% damage for each active Companion",
+    "text": "Core Skills deal an additional # damage for each active Companion",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -1891,7 +1891,7 @@
     "aspect": "shieldingStorm",
     "class": "necromancer",
     "name": "Aspect of Shielding Storm",
-    "text": "Each time that Bone Storm damages an enemy, gain a Barrier equal to #.#% of your Base Life for 10 seconds",
+    "text": "Each time that Bone Storm damages an enemy, gain a Barrier equal to # of your Base Life for 10 seconds",
     "type": "defensive",
     "rarity": "legendary"
   },
@@ -1899,7 +1899,7 @@
     "aspect": "shockwave",
     "class": "druid",
     "name": "Shockwave Aspect",
-    "text": "Pulverize creates a shockwave that travels forward, dealing #.#% of its damage to targets in the path",
+    "text": "Pulverize creates a shockwave that travels forward, dealing # of its damage to targets in the path",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -1907,7 +1907,7 @@
     "aspect": "singedExtremities",
     "class": "sorcerer",
     "name": "Aspect of Singed Extremities",
-    "text": "After Immobilize wears off, enemies are Slowed by #.#% for 4 seconds",
+    "text": "After Immobilize wears off, enemies are Slowed by # for 4 seconds",
     "type": "utility",
     "rarity": "legendary"
   },
@@ -1915,7 +1915,7 @@
     "aspect": "siphonedVictuals",
     "class": "rogue",
     "name": "Aspect of Siphoned Victuals",
-    "text": "Lucky Hit: Damaging a Vulnerable enemy with a Core Skill has up to a #.#% chance to drop a Healing Potion",
+    "text": "Lucky Hit: Damaging a Vulnerable enemy with a Core Skill has up to a # chance to drop a Healing Potion",
     "type": "defensive",
     "rarity": "legendary"
   },
@@ -1931,7 +1931,7 @@
     "aspect": "skullbreaker",
     "class": "barbarian",
     "name": "Skullbreaker's Aspect",
-    "text": "Stunning a Bleeding enemy deals #.#% of their total Bleeding amount to them as Physical damage",
+    "text": "Stunning a Bleeding enemy deals # of their total Bleeding amount to them as Physical damage",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -1939,7 +1939,7 @@
     "aspect": "skyhunter",
     "class": "rogue",
     "name": "Skyhunter",
-    "text": "The first direct damage you deal to an enemy is a guaranteed Critical Strike. If you have the maximum stacks of the Precision Key Passive when you cast a Core Skill, then that skill gains #.#% bonus Critical Strike Damage and you gain # Energy",
+    "text": "The first direct damage you deal to an enemy is a guaranteed Critical Strike. If you have the maximum stacks of the Precision Key Passive when you cast a Core Skill, then that skill gains # bonus Critical Strike Damage and you gain # Energy",
     "type": "unique",
     "rarity": "unique"
   },
@@ -1947,7 +1947,7 @@
     "aspect": "slaking",
     "class": "barbarian",
     "name": "Slaking Aspect",
-    "text": "Lucky Hit: You have up to a #.#% chance to gain 20 Fury when Rend deals direct damage to at least one Bleeding enemy",
+    "text": "Lucky Hit: You have up to a # chance to gain 20 Fury when Rend deals direct damage to at least one Bleeding enemy",
     "type": "resource",
     "rarity": "legendary"
   },
@@ -1963,7 +1963,7 @@
     "aspect": "smiting",
     "class": "all",
     "name": "Smiting Aspect",
-    "text": "You have #.#% increased Critical Strike Chance against Injured enemies. While you are Healthy, you gain #.#% increased Crowd Control Duration",
+    "text": "You have # increased Critical Strike Chance against Injured enemies. While you are Healthy, you gain # increased Crowd Control Duration",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -1979,7 +1979,7 @@
     "aspect": "snowguard",
     "class": "sorcerer",
     "name": "Snowguard's Aspect",
-    "text": "While within your own Blizzard and for 3 seconds after leaving it, you take #.#% less damage",
+    "text": "While within your own Blizzard and for 3 seconds after leaving it, you take # less damage",
     "type": "defensive",
     "rarity": "legendary"
   },
@@ -1995,7 +1995,7 @@
     "aspect": "soulbrand",
     "class": "all",
     "name": "Soulbrand",
-    "text": "Your Healing Potion no longer Heals instantly, instead it grants a Barrier for 200% of the healing for 4 seconds. While you have a Barrier, you gain #.#% Damage Reduction",
+    "text": "Your Healing Potion no longer Heals instantly, instead it grants a Barrier for 200% of the healing for 4 seconds. While you have a Barrier, you gain # Damage Reduction",
     "type": "unique",
     "rarity": "unique"
   },
@@ -2003,7 +2003,7 @@
     "aspect": "splintering",
     "class": "necromancer",
     "name": "Splintering Aspect",
-    "text": "Bone Spear's primary attack makes enemies hit beyond the first Vulnerable for # seconds. Bone Shards from Bone Spear deal #.#% bonus damage to Vulnerable enemies and pierce them",
+    "text": "Bone Spear's primary attack makes enemies hit beyond the first Vulnerable for # seconds. Bone Shards from Bone Spear deal # bonus damage to Vulnerable enemies and pierce them",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -2011,7 +2011,7 @@
     "aspect": "splinteringEnergy",
     "class": "sorcerer",
     "name": "Aspect of Splintering Energy",
-    "text": "Lightning Spear has a #.#% chance to spawn an additional Lightning Spear when you cast it",
+    "text": "Lightning Spear has a # chance to spawn an additional Lightning Spear when you cast it",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -2019,7 +2019,7 @@
     "aspect": "stable",
     "class": "sorcerer",
     "name": "Stable Aspect",
-    "text": "While Unstable Currents is not active, your Shock Skills have a #.#% chance to trigger a free cast from it",
+    "text": "While Unstable Currents is not active, your Shock Skills have a # chance to trigger a free cast from it",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -2027,7 +2027,7 @@
     "aspect": "staffOfEndlessRage",
     "class": "sorcerer",
     "name": "Staff of Endless Rage",
-    "text": "Every 3rd cast of Fireball launches 2 additional projectiles dealing #.#% bonus damage",
+    "text": "Every 3rd cast of Fireball launches 2 additional projectiles dealing # bonus damage",
     "type": "unique",
     "rarity": "unique"
   },
@@ -2035,7 +2035,7 @@
     "aspect": "staffOfLamEsen",
     "class": "sorcerer",
     "name": "Staff of Lam Esen",
-    "text": "Your cast of Charged Bolts have a #.#% chance to be attracted to enemies and last 300% longer",
+    "text": "Your cast of Charged Bolts have a # chance to be attracted to enemies and last 300% longer",
     "type": "unique",
     "rarity": "unique"
   },
@@ -2043,7 +2043,7 @@
     "aspect": "stampede",
     "class": "druid",
     "name": "Aspect of the Stampede",
-    "text": "Gain 1 additional Companion. In addition, your Companion Skills deal #.#% bonus damage",
+    "text": "Gain 1 additional Companion. In addition, your Companion Skills deal # bonus damage",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -2083,7 +2083,7 @@
     "aspect": "stormclaw",
     "class": "druid",
     "name": "Stormclaw's Aspect",
-    "text": "Critical Strikes with Shred deal #.#% of the damage dealt as Lightning damage to the target and surrounding enemies",
+    "text": "Critical Strikes with Shred deal # of the damage dealt as Lightning damage to the target and surrounding enemies",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -2107,7 +2107,7 @@
     "aspect": "stormSwell",
     "class": "sorcerer",
     "name": "Storm Swell Aspect",
-    "text": "You deal #.#% increased damage to Vulnerable enemies while you have a Barrier",
+    "text": "You deal # increased damage to Vulnerable enemies while you have a Barrier",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -2115,7 +2115,7 @@
     "aspect": "subterranean",
     "class": "druid",
     "name": "Subterranean Aspect",
-    "text": "Poison Creeper's active also casts Landslide in a circle around you. Earth Skills deal #.#% increased damage to Poisoned enemies",
+    "text": "Poison Creeper's active also casts Landslide in a circle around you. Earth Skills deal # increased damage to Poisoned enemies",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -2131,7 +2131,7 @@
     "aspect": "swellingCurse",
     "class": "necromancer",
     "name": "Aspect of Swelling Curse",
-    "text": "Bone Spirit deals increased damage based on distance traveled, up to #.#%",
+    "text": "Bone Spirit deals increased damage based on distance traveled, up to #",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -2147,7 +2147,7 @@
     "aspect": "synergy",
     "class": "rogue",
     "name": "Aspect of Synergy",
-    "text": "Using an Agility Skill reduces the Cooldown of your next Subterfuge Skill by 20%. Using a Subterfuge Skill increases the damage of your next Agility Skill by #.#%",
+    "text": "Using an Agility Skill reduces the Cooldown of your next Subterfuge Skill by 20%. Using a Subterfuge Skill increases the damage of your next Agility Skill by #",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -2163,7 +2163,7 @@
     "aspect": "tassetsOfTheDawningSky",
     "class": "all",
     "name": "Tassets of the Dawning Sky",
-    "text": "When you take damage from a Non-Physical damage type, you gain #.#% Maximum Resistance to that damage type for 6 seconds. This effect can only apply to one damage type at a time",
+    "text": "When you take damage from a Non-Physical damage type, you gain # Maximum Resistance to that damage type for 6 seconds. This effect can only apply to one damage type at a time",
     "type": "unique",
     "rarity": "unique"
   },
@@ -2171,7 +2171,7 @@
     "aspect": "temerity",
     "class": "all",
     "name": "Temerity",
-    "text": "Effects that Heal you beyond 100% Life grant you a Barrier up to #.#% of your Maximum Life that lasts for 8 seconds",
+    "text": "Effects that Heal you beyond 100% Life grant you a Barrier up to # of your Maximum Life that lasts for 8 seconds",
     "type": "unique",
     "rarity": "unique"
   },
@@ -2187,7 +2187,7 @@
     "aspect": "tempest",
     "class": "druid",
     "name": "Aspect of the Tempest",
-    "text": "Hurricane damage is increased by #.#% each second while active",
+    "text": "Hurricane damage is increased by # each second while active",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -2195,7 +2195,7 @@
     "aspect": "tempestRoar",
     "class": "druid",
     "name": "Tempest Roar",
-    "text": "Lucky Hit: Storm Skills have up to a #.#% chance to grant 4 Spirit. Your base Storm Skills are now also Werewolf Skills",
+    "text": "Lucky Hit: Storm Skills have up to a # chance to grant 4 Spirit. Your base Storm Skills are now also Werewolf Skills",
     "type": "unique",
     "rarity": "unique"
   },
@@ -2203,7 +2203,7 @@
     "aspect": "theButchersCleaver",
     "class": "all",
     "name": "The Butcher's Cleaver",
-    "text": "Lucky Hit: When you Critically Strike an enemy you have up to a 100% chance to Fear and Slow them by #.#% for 4 seconds",
+    "text": "Lucky Hit: When you Critically Strike an enemy you have up to a 100% chance to Fear and Slow them by # for 4 seconds",
     "type": "unique",
     "rarity": "unique"
   },
@@ -2211,7 +2211,7 @@
     "aspect": "theGrandfather",
     "class": "all",
     "name": "The Grandfather",
-    "text": "Increases your Critical Strike Damage by #.#%. The other properties on this weapon can roll higher than normal",
+    "text": "Increases your Critical Strike Damage by #. The other properties on this weapon can roll higher than normal",
     "type": "unique",
     "rarity": "unique"
   },
@@ -2227,7 +2227,7 @@
     "aspect": "threeCurses",
     "class": "sorcerer",
     "name": "Aspect of Three Curses",
-    "text": "Increases the Critical Strike Damage of Meteor and Fireball by #.#%. Double this bonus against Healthy enemies",
+    "text": "Increases the Critical Strike Damage of Meteor and Fireball by #. Double this bonus against Healthy enemies",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -2235,7 +2235,7 @@
     "aspect": "tibaultsWill",
     "class": "all",
     "name": "Tibault's Will",
-    "text": "You deal #.#% increased damage while Unstoppable and for 4 seconds after. When you become Unstoppable, gain 50 of your Primary Resource",
+    "text": "You deal # increased damage while Unstoppable and for 4 seconds after. When you become Unstoppable, gain 50 of your Primary Resource",
     "type": "unique",
     "rarity": "unique"
   },
@@ -2243,7 +2243,7 @@
     "aspect": "tidal",
     "class": "necromancer",
     "name": "Tidal Aspect",
-    "text": "Blood Wave fires two additional waves, each dealing #.#% less damage then the previous",
+    "text": "Blood Wave fires two additional waves, each dealing # less damage then the previous",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -2251,7 +2251,7 @@
     "aspect": "torment",
     "class": "necromancer",
     "name": "Aspect of Torment",
-    "text": "Critical Strikes with Bone Skills increase your Essence Regeneration by #.#% for 4 seconds",
+    "text": "Critical Strikes with Bone Skills increase your Essence Regeneration by # for 4 seconds",
     "type": "resource",
     "rarity": "legendary"
   },
@@ -2259,7 +2259,7 @@
     "aspect": "torturous",
     "class": "necromancer",
     "name": "Torturous Aspect",
-    "text": "Enemies afflicted by your Iron Maiden have a #.#% chance to be Stunned for 1 second when they deal direct damage",
+    "text": "Enemies afflicted by your Iron Maiden have a # chance to be Stunned for 1 second when they deal direct damage",
     "type": "utility",
     "rarity": "legendary"
   },
@@ -2275,7 +2275,7 @@
     "aspect": "trampledEarth",
     "class": "druid",
     "name": "Aspect of the Trampled Earth",
-    "text": "Trample now summons 6 Landslide pillars of earth during its duration that deal #.#% normal damage. Trample is now also a Nature Magic and Earth Skill",
+    "text": "Trample now summons 6 Landslide pillars of earth during its duration that deal # normal damage. Trample is now also a Nature Magic and Earth Skill",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -2283,7 +2283,7 @@
     "aspect": "trickshot",
     "class": "rogue",
     "name": "Trickshot Aspect",
-    "text": "Whenever Penetrating Shot damages an enemy, 2 additional arrows split off to either side. These side arrows deal #.#% of Penetrating Shot's Base damage and do not split",
+    "text": "Whenever Penetrating Shot damages an enemy, 2 additional arrows split off to either side. These side arrows deal # of Penetrating Shot's Base damage and do not split",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -2299,7 +2299,7 @@
     "aspect": "tuskhelmOfJoritzTheMighty",
     "class": "barbarian",
     "name": "Tuskhelm of Joritz the Mighty",
-    "text": "When you gain Berserking while already Berserk, you have a #.#% chance to become more enraged granting x15% increased damage, 2 Fury per second, and 10% Cooldown Reduction",
+    "text": "When you gain Berserking while already Berserk, you have a # chance to become more enraged granting x15% increased damage, 2 Fury per second, and 10% Cooldown Reduction",
     "type": "unique",
     "rarity": "unique"
   },
@@ -2323,7 +2323,7 @@
     "aspect": "umbrous",
     "class": "rogue",
     "name": "Umbrous Aspect",
-    "text": "Lucky Hit: Critical Strikes with Marksman Skills have up to a #.#% chance to grant a free Dark Shroud shadow",
+    "text": "Lucky Hit: Critical Strikes with Marksman Skills have up to a # chance to grant a free Dark Shroud shadow",
     "type": "defensive",
     "rarity": "legendary"
   },
@@ -2331,7 +2331,7 @@
     "aspect": "unbrokenTether",
     "class": "sorcerer",
     "name": "Aspect of the Unbroken Tether",
-    "text": "Chain Lightning has a #.#% chance to chain 4 additional times",
+    "text": "Chain Lightning has a # chance to chain 4 additional times",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -2339,7 +2339,7 @@
     "aspect": "uncannyTreachery",
     "class": "rogue",
     "name": "Aspect of Uncanny Treachery",
-    "text": "Dealing direct damage to a Dazed Enemy with an Agility Skill grants Stealth for 4 seconds. Breaking Stealth with an attack grants you #.#% Control Impaired Duration Reduction for 4 seconds",
+    "text": "Dealing direct damage to a Dazed Enemy with an Agility Skill grants Stealth for 4 seconds. Breaking Stealth with an attack grants you # Control Impaired Duration Reduction for 4 seconds",
     "type": "defensive",
     "rarity": "legendary"
   },
@@ -2347,7 +2347,7 @@
     "aspect": "unrelentingFury",
     "class": "barbarian",
     "name": "Aspect of Unrelenting Fury",
-    "text": "Killing an enemy or hitting a Boss with a Core Skill refunds #.#% of its base Fury cost. Can only happen once per Skill cast",
+    "text": "Killing an enemy or hitting a Boss with a Core Skill refunds # of its base Fury cost. Can only happen once per Skill cast",
     "type": "resource",
     "rarity": "legendary"
   },
@@ -2355,7 +2355,7 @@
     "aspect": "unsatiated",
     "class": "druid",
     "name": "Aspect of the Unsatiated",
-    "text": "After killing an enemy with Shred, your next Werewolf Skill generates #.#% more Spirit and deals #.#% increased damage",
+    "text": "After killing an enemy with Shred, your next Werewolf Skill generates # more Spirit and deals # increased damage",
     "type": "resource",
     "rarity": "legendary"
   },
@@ -2371,7 +2371,7 @@
     "aspect": "untimelyDeath",
     "class": "necromancer",
     "name": "Aspect of Untimely Death",
-    "text": "Each percent of your Maximum Life you Heal beyond 100% grants you 0.5% bonus Overpower damage on your next Overpowering attack, up to a #.#% bonus",
+    "text": "Each percent of your Maximum Life you Heal beyond 100% grants you 0.5% bonus Overpower damage on your next Overpowering attack, up to a # bonus",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -2379,7 +2379,7 @@
     "aspect": "unwavering",
     "class": "sorcerer",
     "name": "Aspect of the Unwavering",
-    "text": "Taking direct damage has a #.#% chance to reset the Cooldown of one of your Defensive Skills",
+    "text": "Taking direct damage has a # chance to reset the Cooldown of one of your Defensive Skills",
     "type": "defensive",
     "rarity": "legendary"
   },
@@ -2387,7 +2387,7 @@
     "aspect": "unyieldingCommander",
     "class": "necromancer",
     "name": "Unyielding Commander's Aspect",
-    "text": "While Army of the Dead is active, your Minions gain #.#% Attack Speed and take 90% reduced damage",
+    "text": "While Army of the Dead is active, your Minions gain # Attack Speed and take 90% reduced damage",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -2411,7 +2411,7 @@
     "aspect": "vengeful",
     "class": "rogue",
     "name": "Vengeful Aspect",
-    "text": "Lucky Hit: Making an enemy Vulnerable has up to a #.#% chance to grant 3% increased Critical Strike Chance for 3 seconds, up to 9%",
+    "text": "Lucky Hit: Making an enemy Vulnerable has up to a # chance to grant 3% increased Critical Strike Chance for 3 seconds, up to 9%",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -2419,7 +2419,7 @@
     "aspect": "veteranBrawler",
     "class": "barbarian",
     "name": "Veteran Brawler's Aspect",
-    "text": "Each time a Core Skill deals direct damage to an enemy, your next Charge or Leap deals #.#% increased damage, up to #.#%",
+    "text": "Each time a Core Skill deals direct damage to an enemy, your next Charge or Leap deals # increased damage, up to #",
     "type": "offensive",
     "rarity": "legendary"
   },
@@ -2427,7 +2427,7 @@
     "aspect": "vigorous",
     "class": "druid",
     "name": "Vigorous Aspect",
-    "text": "Gain #.#% Damage Reduction while Shapeshifted into a Werewolf",
+    "text": "Gain # Damage Reduction while Shapeshifted into a Werewolf",
     "type": "defensive",
     "rarity": "legendary"
   },
@@ -2467,7 +2467,7 @@
     "aspect": "weaponMaster",
     "class": "barbarian",
     "name": "Weapon Master's Aspect",
-    "text": "Your Weapon Mastery Skills have an additional Charge. Lucky Hit: Damaging an enemy with a Weapon Mastery Skill has up to a #.#% chance to Stun them for 2 seconds",
+    "text": "Your Weapon Mastery Skills have an additional Charge. Lucky Hit: Damaging an enemy with a Weapon Mastery Skill has up to a # chance to Stun them for 2 seconds",
     "type": "utility",
     "rarity": "legendary"
   },
@@ -2483,7 +2483,7 @@
     "aspect": "windforce",
     "class": "rogue",
     "name": "Windforce",
-    "text": "Lucky Hit: Hits with this weapon have up to a #.#% chance to deal double damage and Knock Back the target",
+    "text": "Lucky Hit: Hits with this weapon have up to a # chance to deal double damage and Knock Back the target",
     "type": "unique",
     "rarity": "unique"
   },
@@ -2499,7 +2499,7 @@
     "aspect": "windStriker",
     "class": "all",
     "name": "Wind Striker Aspect",
-    "text": "Critical Strikes grant #.#% Movement Speed for 1 second, up to 6 seconds",
+    "text": "Critical Strikes grant # Movement Speed for 1 second, up to 6 seconds",
     "type": "mobility",
     "rarity": "legendary"
   },

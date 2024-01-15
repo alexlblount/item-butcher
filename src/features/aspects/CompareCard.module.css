@@ -1,0 +1,53 @@
+.card {
+  white-space: wrap;
+  font-family: 'PT Serif';
+  max-width: 256px;
+  min-width: 256px;
+  width: 256px;
+  padding: 0 4px;
+  border: 1px solid #666;
+  display: inline-block;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.thumbnail {
+  position: relative;
+  /* border: 1px solid gold; */
+  width: 64px;
+  height: calc(64px * 1.2);
+  overflow: hidden;
+  float: right;
+  margin-top: 4px;
+}
+
+.image {
+  width: 64px;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
+
+.text {
+  margin: 8px 4px;
+}
+
+.title {
+  font-family: 'exocet';
+  line-height: 1.2;
+}
+
+.extractable,
+.max {
+  color: green;
+  font-weight: bold;
+}
+
+.value {
+  font-weight: bold;
+  color: goldenrod;
+}

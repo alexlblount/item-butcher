@@ -8,11 +8,8 @@ interface CaptureContainerProps extends React.PropsWithChildren {
 
 function CaptureContainer({ children, onImagePaste }: CaptureContainerProps) {
   const [loading, setLoading] = useState(false);
-  const [status, setStatus] = useState('');
 
   const handlePaste = async (e: React.ClipboardEvent) => {
-    setLoading(true);
-    setStatus('Processing Image...');
     const items = e.clipboardData.items;
     for (const item of items) {
       if (item.type.includes('image')) {
@@ -27,7 +24,7 @@ function CaptureContainer({ children, onImagePaste }: CaptureContainerProps) {
 
   return (
     <div className={styles.captureContainer} onPaste={handlePaste}>
-      {loading && <Notification text={status} />}
+      {loading && <Notification text="Processing Image..." />}
       {children}
     </div>
   );

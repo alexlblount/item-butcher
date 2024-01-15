@@ -18,6 +18,7 @@ export default function TestPage() {
   const [imageSrc, setImageSrc] = useState('');
   const [itemDetails, setItemDetails] = useState<Item>();
   const [pastedImageSrc, setPastedImageSrc] = useState('');
+  const [loading, setLoading] = useState(false);
 
   const readImageFile = (file: File) => {
     const reader = new FileReader();
@@ -25,7 +26,8 @@ export default function TestPage() {
     reader.readAsDataURL(file);
   };
 
-  const handleImagePaste = async (imageFile: File) => {
+  const handleImagePaste = async (imageFile: File, setLoading?: (loading: boolean) => void) => {
+    if (setLoading) setLoading(true);
     // reset state
     setExtractedText('');
     setIconDimensions([0, 0]);
@@ -57,6 +59,7 @@ export default function TestPage() {
 
       // Clean up the object URL to avoid memory leaks
       URL.revokeObjectURL(image.src);
+      if (setLoading) setLoading(false);
     };
   };
 
