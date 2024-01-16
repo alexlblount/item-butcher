@@ -7,4 +7,18 @@
 .vault {
   padding: 1rem;
   padding-top: 50px;
+  display: flex;
+}
+
+.noItems {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+
+.itemList {
+  flex-grow: 1;
 }

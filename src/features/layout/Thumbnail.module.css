@@ -1,0 +1,22 @@
+.clearfix::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+.thumbnail {
+  position: relative;
+  /* border: 1px solid gold; */
+  width: 64px;
+  height: calc(64px * 1.2);
+  overflow: hidden;
+  float: right;
+  margin-top: 4px;
+}
+
+.image {
+  width: 64px;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}

@@ -1,10 +1,9 @@
-import { useMemo } from 'react';
 import classnames from 'classnames/bind';
 // aliased
-import { Aspect, aspects } from '@features/imageParsing/extractAspects';
-import { getImageData } from '@features/imageParsing/thumbnailer';
+import { aspects } from '@features/imageParsing/extractAspects';
 import { getTypeName, getPowerDisplay } from '@features/vault/itemHelpers';
 import type { Item } from '@features/imageParsing/transformText';
+import Thumbnail from '@features/layout/Thumbnail';
 // relative
 import { getAspectStrength, getStrengthMultiplier } from './rankStrength';
 import type { AspectRanking } from './rankStrength';
@@ -12,23 +11,6 @@ import styles from './CompareCard.module.css';
 
 const cx = classnames.bind(styles);
 
-interface CompareCardProps {
-  item: Item;
-  rankings: AspectRanking;
-}
-
-function Thumbnail({ item }: { item: Item }) {
-  const dataUrl = useMemo(() => {
-    if (item.imageStorageKey) return getImageData(item.imageStorageKey);
-  }, [item.imageStorageKey]);
-  if (!dataUrl) return null;
-
-  return (
-    <div className={styles.thumbnail}>
-      <img className={styles.image} src={dataUrl} alt={`${item.name} icon`} />
-    </div>
-  );
-}
 
 function formatAspectValue(value: number | string): string {
   if (typeof value === 'string') return value;
@@ -71,7 +53,7 @@ function AspectText({ item, rankings }: AspectTextProps) {
     const value = baseValues[valueIndex];
     const rankGroup = ranks[valueIndex];
 
-    console.log({ value, rankGroup, ranks, itemId: item.id });
+    // console.log({ value, rankGroup, ranks, itemId: item.id });
     const rank = rankGroup.findIndex((x) => x.itemId === item.id) + 1;
 
     valueIndex += 1;
@@ -87,6 +69,11 @@ function AspectText({ item, rankings }: AspectTextProps) {
   });
 
   return <div className={cx('aspect', 'text')}>{aspectNodes}</div>;
+}
+
+interface CompareCardProps {
+  item: Item;
+  rankings: AspectRanking;
 }
 
 export default function CompareCard({ item, rankings }: CompareCardProps) {

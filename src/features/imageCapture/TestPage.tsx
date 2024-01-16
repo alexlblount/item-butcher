@@ -69,7 +69,7 @@ export default function TestPage() {
       <Navigation />
       <div className={styles.testPage}>
         <div style={{ textAlign: 'center' }}>
-          <h1 className={styles.diabloTitle}>Item Recognition Test Page</h1>
+          <h1 className={styles.diabloTitle}>Item Recognition Testing</h1>
           <p className={styles.diabloText}>
             Click anywhere on the page and paste an image of an item to test processing. Items pasted here will not be added to
             the vault.

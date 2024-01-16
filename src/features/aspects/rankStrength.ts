@@ -39,78 +39,12 @@ export const getAspectStrength = (item: Item) => {
   });
 };
 
-// export interface AspectRanking {
-//   [aspect: string]: { itemId: string; values: number[] }[];
-// }
-
-// export function calculateAspectRankings(items: Item[]): AspectRanking {
-//   const rankings: AspectRanking = {};
-
-//   for (const item of items) {
-//     const trueStrength = getAspectStrength(item);
-//     if (trueStrength) {
-//       const aspectKey = item.aspect!.type; // Assuming `type` is a property of `aspect`
-//       if (!rankings[aspectKey]) {
-//         rankings[aspectKey] = [];
-//       }
-//       rankings[aspectKey].push({ itemId: item.id, values: trueStrength });
-//     }
-//   }
-
-//   // Sort each aspect's values
-//   for (const aspect in rankings) {
-//     rankings[aspect].sort((a, b) => {
-//       for (let i = 0; i < a.values.length; i++) {
-//         if (a.values[i] !== b.values[i]) {
-//           return b.values[i] - a.values[i]; // Descending order
-//         }
-//       }
-//       return 0; // If all values are equal
-//     });
-//   }
-
-//   return rankings;
-// }
-
 export interface AspectRanking {
   [aspect: string]: {
     rankings: { itemId: string; value: number | string }[][];
     maxValues: (number | string)[];
   };
 }
-
-// function calculateAspectRankings(items: Item[]): AspectRanking {
-//   const rankings: AspectRanking = {};
-
-//   for (const item of items) {
-//     const trueStrength = getAspectStrength(item);
-//     if (trueStrength) {
-//       const aspectKey = item.aspect!.type; // Assuming `type` is a property of `aspect`
-//       if (!rankings[aspectKey]) {
-//         rankings[aspectKey] = { rankings: [], maxValues: [] };
-//       }
-//       trueStrength.forEach((value, index) => {
-//         if (!rankings[aspectKey].rankings[index]) {
-//           rankings[aspectKey].rankings[index] = [];
-//         }
-//         rankings[aspectKey].rankings[index].push({ itemId: item.id, value });
-//         // Update max value for this slot
-//         if (rankings[aspectKey].maxValues[index] === undefined || rankings[aspectKey].maxValues[index] < value) {
-//           rankings[aspectKey].maxValues[index] = value;
-//         }
-//       });
-//     }
-//   }
-
-//   // Sort rankings for each slot
-//   for (const aspect in rankings) {
-//     rankings[aspect].rankings.forEach((slotRanking) => {
-//       slotRanking.sort((a, b) => b.value - a.value); // Descending order
-//     });
-//   }
-
-//   return rankings;
-// }
 
 export function calculateAspectRankings(items: Item[]): AspectRanking {
   const rankings: AspectRanking = {};

@@ -10,14 +10,13 @@
 }
 
 .clearfix::after {
-  content: "";
+  content: '';
   clear: both;
   display: table;
 }
 
 .thumbnail {
   position: relative;
-  /* border: 1px solid gold; */
   width: 64px;
   height: calc(64px * 1.2);
   overflow: hidden;

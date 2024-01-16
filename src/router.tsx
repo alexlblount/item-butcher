@@ -1,6 +1,7 @@
 import { createBrowserRouter } from 'react-router-dom';
 import AspectPage from '@features/aspects/AspectPage';
 import ErrorView from '@features/layout/ErrorView';
+import LandingPage from '@features/layout/LandingPage';
 import MainLayout from '@features/layout/MainLayout';
 import TestPage from '@features/imageCapture/TestPage';
 import VaultPage from '@features/vault/VaultPage';
@@ -12,7 +13,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <VaultPage />,
+        element: <LandingPage />,
       },
       {
         path: 'vault',
