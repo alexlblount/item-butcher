@@ -35,7 +35,7 @@ function AspectText({ item, rankings }: AspectTextProps) {
 
   const ranking = rankings[aspectType];
   if (!ranking) return null;
-  const { rankings: ranks, maxValues } = ranking;
+  const { rankings: ranks } = ranking;
 
   const baseValues = getAspectStrength(item);
   if (!baseValues) return null;

@@ -18,7 +18,6 @@ export default function TestPage() {
   const [imageSrc, setImageSrc] = useState('');
   const [itemDetails, setItemDetails] = useState<Item>();
   const [pastedImageSrc, setPastedImageSrc] = useState('');
-  const [loading, setLoading] = useState(false);
 
   const readImageFile = (file: File) => {
     const reader = new FileReader();

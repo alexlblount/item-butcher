@@ -143,7 +143,7 @@ function parseInitialInfo(ocrText: string): Item {
   const [affixes, combinedText3] = extractAffixesAndCleanText(cleanBeforeExtraction(combinedText2));
 
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const [aspect, combinedText4] = extractAspectsAndCleanText(cleanBeforeExtraction(combinedText3));
+  const [aspect] = extractAspectsAndCleanText(cleanBeforeExtraction(combinedText3));
 
   return {
     id: uuid(),

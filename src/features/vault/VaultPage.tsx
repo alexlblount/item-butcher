@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useAppSelector } from '@src/state/hooks';
+import type { Item } from '@features/imageParsing/transformText';
 import { selectUniqueSortedItemTypes } from './vaultSlice';
 import ItemTile from './ItemTile';
 import styles from './VaultPage.module.css';
