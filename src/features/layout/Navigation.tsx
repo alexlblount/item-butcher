@@ -44,7 +44,7 @@ export default function Navigation() {
           </li>
         </ul>
         <div className={styles.filler} />
-        <div className={styles.version}>v0.0.1.b9</div>
+        <div className={styles.version}>v0.0.1.b10</div>
       </nav>
     </header>
   );

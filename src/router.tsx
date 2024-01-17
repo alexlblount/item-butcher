@@ -7,7 +7,7 @@ import MainLayout from '@features/layout/MainLayout';
 import TestPage from '@features/imageCapture/TestPage';
 import VaultPage from '@features/vault/VaultPage';
 
-const basename = process.env.NODE_ENV === 'production' ? '/item-butcher/' : '/';
+// const basename = process.env.NODE_ENV === 'production' ? '/item-butcher/' : '/';
 // const basename = '/item-butcher/';
 
 const router = createRouter(
@@ -36,7 +36,7 @@ const router = createRouter(
       element: <TestPage />,
     },
   ],
-  { basename },
+  // { basename },
 );
 
 export default router;
