@@ -6,29 +6,34 @@ import MainLayout from '@features/layout/MainLayout';
 import TestPage from '@features/imageCapture/TestPage';
 import VaultPage from '@features/vault/VaultPage';
 
-const router = createBrowserRouter([
-  {
-    element: <MainLayout />,
-    errorElement: <ErrorView />,
-    children: [
-      {
-        path: '/',
-        element: <LandingPage />,
-      },
-      {
-        path: 'vault',
-        element: <VaultPage />,
-      },
-      {
-        path: 'aspects',
-        element: <AspectPage />,
-      },
-    ],
-  },
-  {
-    path: '/test',
-    element: <TestPage />,
-  },
-]);
+const basename = process.env.NODE_ENV === 'production' ? '/item-butcher/' : '/';
+
+const router = createBrowserRouter(
+  [
+    {
+      element: <MainLayout />,
+      errorElement: <ErrorView />,
+      children: [
+        {
+          path: '/',
+          element: <LandingPage />,
+        },
+        {
+          path: 'vault',
+          element: <VaultPage />,
+        },
+        {
+          path: 'aspects',
+          element: <AspectPage />,
+        },
+      ],
+    },
+    {
+      path: '/test',
+      element: <TestPage />,
+    },
+  ],
+  { basename },
+);
 
 export default router;
