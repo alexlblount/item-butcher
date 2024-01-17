@@ -10,7 +10,7 @@
     "build": "tsc && vite build",
     "build:now": "vite build",
     "build-and-deploy": "yarn build:now && yarn deploy",
-    "deploy": "gh-pages -d dist --dest item-butcher",
+    "deploy": "gh-pages -d dist --dest item-butcher --nojekyll",
     "dev": "vite",
     "lint:fix": "eslint ./src --ext .jsx,.js,.ts,.tsx,.css,.scss --quiet --fix --ignore-path ./.gitignore",
     "lint:format": "prettier --loglevel warn --write \"./**/*.{js,jsx,ts,tsx,css,scss,md,json}\" ",
