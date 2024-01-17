@@ -44,6 +44,7 @@ export default function Navigation() {
           </li>
         </ul>
         <div className={styles.filler} />
+        <div className={styles.version}>v1 b6</div>
       </nav>
     </header>
   );

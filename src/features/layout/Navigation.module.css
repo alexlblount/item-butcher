@@ -99,3 +99,9 @@
   flex-grow: 1; /* Take up remaining space */
   border-bottom: 1px solid #111;
 }
+
+.version {
+  padding: 14px 16px;
+  color: rgba(255, 255, 255, 0.3);
+  border-bottom: 1px solid #111;
+}
