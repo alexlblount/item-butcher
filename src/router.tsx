@@ -12,7 +12,7 @@ const basename = '/item-butcher/';
 const router = createBrowserRouter(
   [
     {
-      path: '/',
+      // path: '/',
       element: <MainLayout />,
       errorElement: <ErrorView />,
       children: [

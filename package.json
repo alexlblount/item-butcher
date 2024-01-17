@@ -5,12 +5,12 @@
   "type": "module",
   "author": "Alex Blount",
   "license": "MIT",
-  "homepage": "https://alexlblount.github.io/item-butcher/",
   "scripts": {
     "build": "tsc && vite build",
     "build:now": "vite build",
     "build-and-deploy": "yarn build:now && yarn deploy",
-    "deploy": "gh-pages -d dist --dest item-butcher --nojekyll",
+    "zz-deploy": "gh-pages -d dist --dest item-butcher --nojekyll",
+    "deploy": "gh-pages -d dist --nojekyll",
     "dev": "vite",
     "lint:fix": "eslint ./src --ext .jsx,.js,.ts,.tsx,.css,.scss --quiet --fix --ignore-path ./.gitignore",
     "lint:format": "prettier --loglevel warn --write \"./**/*.{js,jsx,ts,tsx,css,scss,md,json}\" ",
@@ -19,7 +19,7 @@
     "transform-affixes": "node scripts/transformAffixes.cjs",
     "transform-aspects": "node scripts/transformAspects.cjs",
     "transform-data": "yarn transform-affixes && yarn transform-aspects",
-    "zzlint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
+    "zz-lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.0.1",
