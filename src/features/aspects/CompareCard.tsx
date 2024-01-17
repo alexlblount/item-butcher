@@ -11,7 +11,6 @@ import styles from './CompareCard.module.css';
 
 const cx = classnames.bind(styles);
 
-
 function formatAspectValue(value: number | string): string {
   if (typeof value === 'string') return value;
   return new Intl.NumberFormat('en-US', {

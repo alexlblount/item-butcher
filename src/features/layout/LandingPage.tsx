@@ -1,5 +1,5 @@
 import styles from './LandingPage.module.css';
-import howToStart from '@src/assets/how-to-start.png';
+import howToStart from '@src/assets/how-to-start-min.png';
 
 export default function LandingPage() {
   return (

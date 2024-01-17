@@ -9,28 +9,6 @@
   display: inline-block;
 }
 
-.clearfix::after {
-  content: '';
-  clear: both;
-  display: table;
-}
-
-.thumbnail {
-  position: relative;
-  width: 64px;
-  height: calc(64px * 1.2);
-  overflow: hidden;
-  float: right;
-  margin-top: 4px;
-}
-
-.image {
-  width: 64px;
-  position: absolute;
-  top: -5px;
-  right: -5px;
-}
-
 .text {
   margin: 8px 4px;
 }
