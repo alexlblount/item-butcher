@@ -5,9 +5,11 @@
   "type": "module",
   "author": "Alex Blount",
   "license": "MIT",
+  "homepage": "https://alexlblount.github.io/item-butcher/",
   "scripts": {
     "build": "tsc && vite build",
     "build:now": "vite build",
+    "build-and-deploy": "yarn build:now && yarn deploy",
     "deploy": "gh-pages -d dist --dest item-butcher",
     "dev": "vite",
     "lint:fix": "eslint ./src --ext .jsx,.js,.ts,.tsx,.css,.scss --quiet --fix --ignore-path ./.gitignore",
